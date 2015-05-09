@@ -93,10 +93,10 @@
 		F01A5A0B1716EF4C0000DD94 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F01A5A0D1716EF4C0000DD94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F01A5A0F1716EF4C0000DD94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F01A5A131716EF4C0000DD94 /* CatalogCobalt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CatalogCobalt-Info.plist"; sourceTree = "<group>"; };
+		F01A5A131716EF4C0000DD94 /* Catalog-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Catalog-Info.plist"; sourceTree = "<group>"; };
 		F01A5A151716EF4C0000DD94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F01A5A171716EF4D0000DD94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F01A5A191716EF4D0000DD94 /* CatalogCobalt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CatalogCobalt-Prefix.pch"; sourceTree = "<group>"; };
+		F01A5A191716EF4D0000DD94 /* Catalog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Catalog-Prefix.pch"; sourceTree = "<group>"; };
 		F01A5A1A1716EF4D0000DD94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F01A5A1B1716EF4D0000DD94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F09F95DF1AFD61E600E1C9B5 /* Cobalt-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Cobalt-Prefix.pch"; sourceTree = "<group>"; };
@@ -209,7 +209,7 @@
 		F01A59FF1716EF4C0000DD94 = {
 			isa = PBXGroup;
 			children = (
-				F01A5A111716EF4C0000DD94 /* CatalogCobalt */,
+				F01A5A111716EF4C0000DD94 /* Catalog */,
 				F01A5A0A1716EF4C0000DD94 /* Frameworks */,
 				F01A5A091716EF4C0000DD94 /* Products */,
 			);
@@ -238,7 +238,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F01A5A111716EF4C0000DD94 /* CatalogCobalt */ = {
+		F01A5A111716EF4C0000DD94 /* Catalog */ = {
 			isa = PBXGroup;
 			children = (
 				BE3DEED21AC19B8600EF45ED /* assets */,
@@ -248,14 +248,14 @@
 				8EC5CAD61980FB00001777FA /* Images.xcassets */,
 				F01A5A121716EF4C0000DD94 /* Supporting Files */,
 			);
-			path = CatalogCobalt;
+			path = Catalog;
 			sourceTree = "<group>";
 		};
 		F01A5A121716EF4C0000DD94 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F01A5A131716EF4C0000DD94 /* CatalogCobalt-Info.plist */,
-				F01A5A191716EF4D0000DD94 /* CatalogCobalt-Prefix.pch */,
+				F01A5A131716EF4C0000DD94 /* Catalog-Info.plist */,
+				F01A5A191716EF4D0000DD94 /* Catalog-Prefix.pch */,
 				F01A5A141716EF4C0000DD94 /* InfoPlist.strings */,
 				F01A5A171716EF4D0000DD94 /* main.m */,
 			);
@@ -347,9 +347,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F01A5A071716EF4C0000DD94 /* CatalogCobalt */ = {
+		F01A5A071716EF4C0000DD94 /* Catalog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F01A5A251716EF4D0000DD94 /* Build configuration list for PBXNativeTarget "CatalogCobalt" */;
+			buildConfigurationList = F01A5A251716EF4D0000DD94 /* Build configuration list for PBXNativeTarget "Catalog" */;
 			buildPhases = (
 				F01A5A041716EF4C0000DD94 /* Sources */,
 				F01A5A051716EF4C0000DD94 /* Frameworks */,
@@ -359,8 +359,8 @@
 			);
 			dependencies = (
 			);
-			name = CatalogCobalt;
-			productName = CatalogCobalt;
+			name = Catalog;
+			productName = Catalog;
 			productReference = F01A5A081716EF4C0000DD94 /* Cobalt Catalog.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -379,7 +379,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F01A5A031716EF4C0000DD94 /* Build configuration list for PBXProject "CatalogCobalt" */;
+			buildConfigurationList = F01A5A031716EF4C0000DD94 /* Build configuration list for PBXProject "Catalog" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -391,7 +391,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F01A5A071716EF4C0000DD94 /* CatalogCobalt */,
+				F01A5A071716EF4C0000DD94 /* Catalog */,
 			);
 		};
 /* End PBXProject section */
@@ -539,8 +539,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CatalogCobalt/CatalogCobalt-Prefix.pch";
-				INFOPLIST_FILE = "CatalogCobalt/CatalogCobalt-Info.plist";
+				GCC_PREFIX_HEADER = "Catalog/Catalog-Prefix.pch";
+				INFOPLIST_FILE = "Catalog/Catalog-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "Cobalt Catalog";
 				PROVISIONING_PROFILE = "";
@@ -558,8 +558,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CatalogCobalt/CatalogCobalt-Prefix.pch";
-				INFOPLIST_FILE = "CatalogCobalt/CatalogCobalt-Info.plist";
+				GCC_PREFIX_HEADER = "Catalog/Catalog-Prefix.pch";
+				INFOPLIST_FILE = "Catalog/Catalog-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "Cobalt Catalog";
 				PROVISIONING_PROFILE = "";
@@ -572,7 +572,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F01A5A031716EF4C0000DD94 /* Build configuration list for PBXProject "CatalogCobalt" */ = {
+		F01A5A031716EF4C0000DD94 /* Build configuration list for PBXProject "Catalog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F01A5A231716EF4D0000DD94 /* Debug */,
@@ -581,7 +581,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F01A5A251716EF4D0000DD94 /* Build configuration list for PBXNativeTarget "CatalogCobalt" */ = {
+		F01A5A251716EF4D0000DD94 /* Build configuration list for PBXNativeTarget "Catalog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F01A5A261716EF4D0000DD94 /* Debug */,

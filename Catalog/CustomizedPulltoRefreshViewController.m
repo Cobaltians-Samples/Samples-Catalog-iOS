@@ -1,6 +1,6 @@
 //
 //  CustomizedPulltoRefreshViewController.m
-//  CatalogCobalt
+//  Catalog
 //
 //  Created by Haploid on 29/07/14.
 //  Copyright (c) 2014 Haploid. All rights reserved.

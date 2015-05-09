@@ -1,6 +1,6 @@
 //
 //  PluginsController.m
-//  CatalogCobalt
+//  Catalog
 //
 //  Created by Haploid on 28/10/14.
 //  Copyright (c) 2014 Haploid. All rights reserved.
