@@ -48,10 +48,11 @@
 
                 app.touch('.valueBtn',function(){
                     var input=$(this).prev('input');
-                    cobalt.alert('Input value',
-                                 'value is '+ $(input).val()+'\n' +
-                                 'cobalt.datePicker.val is ' + cobalt.datePicker.val(input)
-                                )
+                    cobalt.alert({
+                                title : 'Input value',
+                                message : 'value is '+ $(input).val()+'\n' +
+                                        'cobalt.datePicker.val is ' + cobalt.datePicker.val(input)
+                    })
                 });
 
                 app.initPage('Date Picker');
