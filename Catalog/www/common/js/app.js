@@ -39,17 +39,29 @@ var app={
 
         app.touch('a.push',function(){
             if ( ! $(this).hasClass('disabled') ){
-                cobalt.navigate('push',$(this).attr('data-href'),$(this).attr('data-classid'))
+                cobalt.navigate.push({
+                    page : $(this).attr('data-href'),
+                    controller : $(this).attr('data-classid')
+                });
             }
         });
         app.touch('a.pop',function(){
-            cobalt.navigate('pop',$(this).attr('data-href'),$(this).attr('data-classid'));
+            cobalt.navigate.pop();
+        });
+        app.touch('a.popTo',function(){
+            cobalt.navigate.popTo({
+                page : $(this).attr('data-href'),
+                controller : $(this).attr('data-classid')
+            });
         });
         app.touch('a.dismiss',function(){
-            cobalt.navigate('dismiss');
+            cobalt.navigate.dismiss();
         });
         app.touch('a.modal',function(){
-            cobalt.navigate('modal',$(this).attr('data-href'));
+            cobalt.navigate.modal({
+                page : $(this).attr('data-href'),
+                controller : $(this).attr('data-classid')
+            });
         });
 
         if (title){

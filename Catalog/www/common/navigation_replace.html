@@ -40,8 +40,12 @@
                 app.initPage('navigation replace');
 
                 app.touch('a.replace',function(){
-                    var animated = ($(this).attr('data-animated') === "true");
-                    cobalt.navigate('replace',$(this).attr('data-href'),$(this).attr('data-classid'), animated);
+                    cobalt.navigate.replace({
+                        page : $(this).attr('data-href'),
+                        controller : $(this).attr('data-classid'),
+                        animated : ($(this).attr('data-animated') === "true")
+                    });
+
                 });
 
             })
