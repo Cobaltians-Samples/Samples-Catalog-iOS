@@ -1,0 +1,4 @@
+[submodule "Cobalt"]
+	path = Cobalt
+	url = git://github.com/cobaltians/Cobalt-iOS.git
+	branch = 0.4.1
