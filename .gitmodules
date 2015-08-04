@@ -2,3 +2,15 @@
 	path = Cobalt
 	url = git://github.com/cobaltians/Cobalt-iOS.git
 	branch = 0.4.1
+[submodule "LocationPlugin"]
+	path = LocationPlugin
+	url = git://github.com/Cobaltians-Plugins/Plugins-Location-iOS.git
+	branch = 0.4.1
+[submodule "WebServicesPlugin"]
+	path = WebServicesPlugin
+	url = git://github.com/Cobaltians-Plugins/Plugins-WebServices-iOS.git
+	branch = 0.4.1
+[submodule "PubSubPlugin"]
+	path = PubSubPlugin
+	url = git://github.com/Cobaltians-Plugins/Plugins-PubSub-iOS.git
+	branch = 0.4.1
