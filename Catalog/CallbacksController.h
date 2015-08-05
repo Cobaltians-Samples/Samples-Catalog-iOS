@@ -6,9 +6,8 @@
 //  Copyright (c) 2013 Haploid. All rights reserved.
 //
 
+#import "CobaltViewController.h"
 #import "SimpleController.h"
-
-#import <Cobalt/CobaltViewController.h>
 
 @interface CallbacksController : SimpleController <CobaltDelegate>
 

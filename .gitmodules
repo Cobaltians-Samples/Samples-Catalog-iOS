@@ -22,12 +22,3 @@
 	path = Catalog/www/platform
 	url = git://github.com/cobaltians/Cobalt-Web-iOS.git
 	branch = 0.4.1
-[submodule "Catalog/www/PubSubPlugin"]
-	path = Catalog/www/PubSubPlugin
-	url = git://github.com/cobaltians-plugins/plugins-PubSub-Web.git
-[submodule "Catalog/www/LocationPlugin"]
-	path = Catalog/www/LocationPlugin
-	url = git://github.com/cobaltians-plugins/plugins-Location-Web.git
-[submodule "Catalog/www/WebServicesPlugin"]
-	path = Catalog/www/WebServicesPlugin
-	url = git://github.com/cobaltians-plugins/plugins-Webservices-Web.git
