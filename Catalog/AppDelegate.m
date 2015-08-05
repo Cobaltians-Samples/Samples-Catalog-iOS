@@ -7,10 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
-#import "Cobalt.h"
-#import "CobaltViewController.h"
 #import "SimpleController.h"
+
+#import <Cobalt/Cobalt.h>
+#import <Cobalt/CobaltViewController.h>
 
 @implementation AppDelegate
 
