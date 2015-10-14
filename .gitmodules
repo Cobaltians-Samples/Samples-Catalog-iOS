@@ -39,3 +39,11 @@
 	path = AppInfosPlugin
 	url = git@github.com:Cobaltians-Plugins/Plugins-AppInfos-iOS.git
 	branch = 0.4.1
+[submodule "ActionPickerPlugin"]
+	path = ActionPickerPlugin
+	url = git@github.com:Cobaltians-Plugins/Plugins-ActionPicker-iOS.git
+	branch = 0.4.1
+[submodule "Catalog/www/ActionPickerPlugin"]
+	path = Catalog/www/ActionPickerPlugin
+	url = git@github.com:Cobaltians-Plugins/Plugins-ActionPicker-Web.git
+	branch = 0.4.1
