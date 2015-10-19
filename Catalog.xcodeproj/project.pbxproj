@@ -108,6 +108,7 @@
 		BE1ABCEF1B70F9C40070657C /* PubSubReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PubSubReceiver.h; path = PubSubPlugin/PubSubReceiver.h; sourceTree = "<group>"; };
 		BE1ABCF01B70F9C40070657C /* PubSubReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PubSubReceiver.m; path = PubSubPlugin/PubSubReceiver.m; sourceTree = "<group>"; };
 		BE1B27CB1BCE9FE2003C0C61 /* ActionPickerPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ActionPickerPlugin; path = www/ActionPickerPlugin; sourceTree = "<group>"; };
+		BE208FEF1BD4DB5C000D2B5F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BEA8677E1B74E8B70072F61C /* LocationPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = LocationPlugin; path = www/LocationPlugin; sourceTree = "<group>"; };
 		BEA8677F1B74E8B70072F61C /* PubSubPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PubSubPlugin; path = www/PubSubPlugin; sourceTree = "<group>"; };
 		BEA867801B74E8B70072F61C /* WebServicesPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WebServicesPlugin; path = www/WebServicesPlugin; sourceTree = "<group>"; };
@@ -375,6 +376,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				fr,
 			);
 			mainGroup = F01A59FF1716EF4C0000DD94;
 			productRefGroup = F01A5A091716EF4C0000DD94 /* Products */;
@@ -457,6 +459,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F01A5A151716EF4C0000DD94 /* en */,
+				BE208FEF1BD4DB5C000D2B5F /* fr */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
