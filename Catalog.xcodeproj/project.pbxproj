@@ -33,17 +33,21 @@
 		BE1ABCEB1B70F9AC0070657C /* WebServicesAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1ABCE81B70F9AC0070657C /* WebServicesAPI.m */; };
 		BE1ABCF11B70F9C40070657C /* PubSubPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1ABCEE1B70F9C40070657C /* PubSubPlugin.m */; };
 		BE1ABCF21B70F9C40070657C /* PubSubReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1ABCF01B70F9C40070657C /* PubSubReceiver.m */; };
-		BE1B27CC1BCE9FE2003C0C61 /* ActionPickerPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BE1B27CB1BCE9FE2003C0C61 /* ActionPickerPlugin */; settings = {ASSET_TAGS = (); }; };
+		BE1B27CC1BCE9FE2003C0C61 /* ActionPickerPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BE1B27CB1BCE9FE2003C0C61 /* ActionPickerPlugin */; };
 		BEA867811B74E8B70072F61C /* LocationPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BEA8677E1B74E8B70072F61C /* LocationPlugin */; };
 		BEA867821B74E8B70072F61C /* PubSubPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BEA8677F1B74E8B70072F61C /* PubSubPlugin */; };
 		BEA867831B74E8B70072F61C /* WebServicesPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BEA867801B74E8B70072F61C /* WebServicesPlugin */; };
-		BEDD518C1BCE993300E204AC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BEDD51881BCE993300E204AC /* .gitignore */; settings = {ASSET_TAGS = (); }; };
-		BEDD518D1BCE993300E204AC /* ActionPickerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDD518A1BCE993300E204AC /* ActionPickerPlugin.m */; settings = {ASSET_TAGS = (); }; };
-		BEDD518E1BCE993300E204AC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BEDD518B1BCE993300E204AC /* LICENSE */; settings = {ASSET_TAGS = (); }; };
-		BEDD8DA11BAC278600265616 /* AppInfosPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BEDD8DA01BAC278600265616 /* AppInfosPlugin */; settings = {ASSET_TAGS = (); }; };
-		BEDD8DA71BAC282C00265616 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BEDD8DA31BAC282C00265616 /* .gitignore */; settings = {ASSET_TAGS = (); }; };
-		BEDD8DA81BAC282C00265616 /* CobaltAppInfosPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDD8DA51BAC282C00265616 /* CobaltAppInfosPlugin.m */; settings = {ASSET_TAGS = (); }; };
-		BEDD8DA91BAC282C00265616 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BEDD8DA61BAC282C00265616 /* LICENSE */; settings = {ASSET_TAGS = (); }; };
+		BEC5659E1C186C8E00DC8FF5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BEC565991C186C8E00DC8FF5 /* .gitignore */; };
+		BEC5659F1C186C8E00DC8FF5 /* FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC5659B1C186C8E00DC8FF5 /* FontAwesome.m */; };
+		BEC565A01C186C8E00DC8FF5 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEC5659C1C186C8E00DC8FF5 /* FontAwesome.ttf */; };
+		BEC565A11C186C8E00DC8FF5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BEC5659D1C186C8E00DC8FF5 /* LICENSE */; };
+		BEDD518C1BCE993300E204AC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BEDD51881BCE993300E204AC /* .gitignore */; };
+		BEDD518D1BCE993300E204AC /* ActionPickerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDD518A1BCE993300E204AC /* ActionPickerPlugin.m */; };
+		BEDD518E1BCE993300E204AC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BEDD518B1BCE993300E204AC /* LICENSE */; };
+		BEDD8DA11BAC278600265616 /* AppInfosPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BEDD8DA01BAC278600265616 /* AppInfosPlugin */; };
+		BEDD8DA71BAC282C00265616 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BEDD8DA31BAC282C00265616 /* .gitignore */; };
+		BEDD8DA81BAC282C00265616 /* CobaltAppInfosPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDD8DA51BAC282C00265616 /* CobaltAppInfosPlugin.m */; };
+		BEDD8DA91BAC282C00265616 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BEDD8DA61BAC282C00265616 /* LICENSE */; };
 		BEDE9EB41B7398C700EAEB94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDE9EB31B7398C700EAEB94 /* UIKit.framework */; };
 		BEDE9EB61B7398DB00EAEB94 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDE9EB51B7398DB00EAEB94 /* CoreLocation.framework */; };
 		C49597581717090B006454BA /* CallbacksController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49597561717090B006454BA /* CallbacksController.m */; };
@@ -112,6 +116,11 @@
 		BEA8677E1B74E8B70072F61C /* LocationPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = LocationPlugin; path = www/LocationPlugin; sourceTree = "<group>"; };
 		BEA8677F1B74E8B70072F61C /* PubSubPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PubSubPlugin; path = www/PubSubPlugin; sourceTree = "<group>"; };
 		BEA867801B74E8B70072F61C /* WebServicesPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WebServicesPlugin; path = www/WebServicesPlugin; sourceTree = "<group>"; };
+		BEC565991C186C8E00DC8FF5 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		BEC5659A1C186C8E00DC8FF5 /* FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontAwesome.h; sourceTree = "<group>"; };
+		BEC5659B1C186C8E00DC8FF5 /* FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontAwesome.m; sourceTree = "<group>"; };
+		BEC5659C1C186C8E00DC8FF5 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		BEC5659D1C186C8E00DC8FF5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BEDD51881BCE993300E204AC /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		BEDD51891BCE993300E204AC /* ActionPickerPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionPickerPlugin.h; sourceTree = "<group>"; };
 		BEDD518A1BCE993300E204AC /* ActionPickerPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionPickerPlugin.m; sourceTree = "<group>"; };
@@ -242,6 +251,18 @@
 			name = AppDelegate;
 			sourceTree = "<group>";
 		};
+		BEC565981C186C8E00DC8FF5 /* Fonts-FontAwesome-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BEC565991C186C8E00DC8FF5 /* .gitignore */,
+				BEC5659A1C186C8E00DC8FF5 /* FontAwesome.h */,
+				BEC5659B1C186C8E00DC8FF5 /* FontAwesome.m */,
+				BEC5659C1C186C8E00DC8FF5 /* FontAwesome.ttf */,
+				BEC5659D1C186C8E00DC8FF5 /* LICENSE */,
+			);
+			path = "Fonts-FontAwesome-iOS";
+			sourceTree = "<group>";
+		};
 		BEDD51871BCE993300E204AC /* ActionPickerPlugin */ = {
 			isa = PBXGroup;
 			children = (
@@ -287,6 +308,7 @@
 				BEDE9EB51B7398DB00EAEB94 /* CoreLocation.framework */,
 				BEDE9EB31B7398C700EAEB94 /* UIKit.framework */,
 				BE043DA21BA7033000620FEA /* Cobalt.framework */,
+				BEC565981C186C8E00DC8FF5 /* Fonts-FontAwesome-iOS */,
 				BEDD51871BCE993300E204AC /* ActionPickerPlugin */,
 				BEDD8DA21BAC282C00265616 /* AppInfosPlugin */,
 				BE1ABCEC1B70F9B50070657C /* PubSubPlugin */,
@@ -393,6 +415,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEC5659E1C186C8E00DC8FF5 /* .gitignore in Resources */,
 				8E751EB619EEB62400EDFF4D /* wind@3x.png in Resources */,
 				BEDD518C1BCE993300E204AC /* .gitignore in Resources */,
 				8E751EAF19EEB62400EDFF4D /* moon@2x.png in Resources */,
@@ -400,6 +423,7 @@
 				8E751EB319EEB62400EDFF4D /* sun@3x.png in Resources */,
 				8E751EAB19EEB62400EDFF4D /* cloudy.png in Resources */,
 				F01A5A161716EF4C0000DD94 /* InfoPlist.strings in Resources */,
+				BEC565A11C186C8E00DC8FF5 /* LICENSE in Resources */,
 				8E751EAD19EEB62400EDFF4D /* cloudy@3x.png in Resources */,
 				BEDD8DA71BAC282C00265616 /* .gitignore in Resources */,
 				BE1B27CC1BCE9FE2003C0C61 /* ActionPickerPlugin in Resources */,
@@ -415,6 +439,7 @@
 				C4D664A3171E8D97009EDE58 /* EventsController.xib in Resources */,
 				F0FB6E4019B45EED00021401 /* platform in Resources */,
 				C4D664AB171E91D5009EDE58 /* SimpleController.xib in Resources */,
+				BEC565A01C186C8E00DC8FF5 /* FontAwesome.ttf in Resources */,
 				8E751EB019EEB62400EDFF4D /* moon@3x.png in Resources */,
 				BEDD8DA11BAC278600265616 /* AppInfosPlugin in Resources */,
 				8E751EB219EEB62400EDFF4D /* sun@2x.png in Resources */,
@@ -434,6 +459,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEC5659F1C186C8E00DC8FF5 /* FontAwesome.m in Sources */,
 				BE1ABCEA1B70F9AC0070657C /* NSThread+withBlocks.m in Sources */,
 				8E3C678919FF96D2007353AC /* PluginsController.m in Sources */,
 				BE1ABCE91B70F9AC0070657C /* CobaltWebservicesPlugin.m in Sources */,

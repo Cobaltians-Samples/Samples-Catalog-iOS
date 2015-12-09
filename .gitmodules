@@ -47,3 +47,6 @@
 	path = Catalog/www/ActionPickerPlugin
 	url = git@github.com:Cobaltians-Plugins/Plugins-ActionPicker-Web.git
 	branch = 0.4.1
+[submodule "Fonts-FontAwesome-iOS"]
+	path = Fonts-FontAwesome-iOS
+	url = git@github.com:Cobaltians-Fonts/Fonts-FontAwesome-iOS.git
