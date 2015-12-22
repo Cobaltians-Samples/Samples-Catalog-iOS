@@ -70,7 +70,9 @@
         
         if (title != nil
             && [title isKindOfClass:[NSString class]]) {
-            self.navigationItem.title = title;
+            dispatch_async(dispatch_get_main_queue(), ^{
+                self.navigationItem.title = title;
+            });
         }
         
         return YES;
