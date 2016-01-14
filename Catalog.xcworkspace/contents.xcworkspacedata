@@ -4,7 +4,4 @@
    <FileRef
       location = "group:Catalog.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:Cobalt/Cobalt.xcodeproj">
-   </FileRef>
 </Workspace>

@@ -25,25 +25,27 @@
 		8E751EB519EEB62400EDFF4D /* wind@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E751EA619EEB62400EDFF4D /* wind@2x.png */; };
 		8E751EB619EEB62400EDFF4D /* wind@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E751EA719EEB62400EDFF4D /* wind@3x.png */; };
 		8EC5CAD71980FB00001777FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EC5CAD61980FB00001777FA /* Images.xcassets */; };
-		BE043DA31BA7033000620FEA /* Cobalt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE043DA21BA7033000620FEA /* Cobalt.framework */; };
-		BE043DA41BA7033000620FEA /* Cobalt.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BE043DA21BA7033000620FEA /* Cobalt.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE1ABCE21B70F98B0070657C /* CobaltLocationPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1ABCE11B70F98B0070657C /* CobaltLocationPlugin.m */; };
 		BE1ABCE91B70F9AC0070657C /* CobaltWebservicesPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1ABCE41B70F9AC0070657C /* CobaltWebservicesPlugin.m */; };
 		BE1ABCEA1B70F9AC0070657C /* NSThread+withBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1ABCE61B70F9AC0070657C /* NSThread+withBlocks.m */; };
 		BE1ABCEB1B70F9AC0070657C /* WebServicesAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1ABCE81B70F9AC0070657C /* WebServicesAPI.m */; };
 		BE1ABCF11B70F9C40070657C /* PubSubPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1ABCEE1B70F9C40070657C /* PubSubPlugin.m */; };
 		BE1ABCF21B70F9C40070657C /* PubSubReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1ABCF01B70F9C40070657C /* PubSubReceiver.m */; };
-		BE1B27CC1BCE9FE2003C0C61 /* ActionPickerPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BE1B27CB1BCE9FE2003C0C61 /* ActionPickerPlugin */; settings = {ASSET_TAGS = (); }; };
+		BE1B27CC1BCE9FE2003C0C61 /* ActionPickerPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BE1B27CB1BCE9FE2003C0C61 /* ActionPickerPlugin */; };
+		BE956EA51C47F08E002DBEE3 /* libCobalt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE956EA01C47F076002DBEE3 /* libCobalt.a */; };
+		BE956EA61C47F0B3002DBEE3 /* Cobalt.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BE956EA21C47F076002DBEE3 /* Cobalt.bundle */; };
+		BE956EA81C47F2E3002DBEE3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE956EA71C47F2E3002DBEE3 /* CoreGraphics.framework */; };
+		BE956EAC1C47F302002DBEE3 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE956EAB1C47F302002DBEE3 /* JavaScriptCore.framework */; };
 		BEA867811B74E8B70072F61C /* LocationPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BEA8677E1B74E8B70072F61C /* LocationPlugin */; };
 		BEA867821B74E8B70072F61C /* PubSubPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BEA8677F1B74E8B70072F61C /* PubSubPlugin */; };
 		BEA867831B74E8B70072F61C /* WebServicesPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BEA867801B74E8B70072F61C /* WebServicesPlugin */; };
-		BEDD518C1BCE993300E204AC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BEDD51881BCE993300E204AC /* .gitignore */; settings = {ASSET_TAGS = (); }; };
-		BEDD518D1BCE993300E204AC /* ActionPickerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDD518A1BCE993300E204AC /* ActionPickerPlugin.m */; settings = {ASSET_TAGS = (); }; };
-		BEDD518E1BCE993300E204AC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BEDD518B1BCE993300E204AC /* LICENSE */; settings = {ASSET_TAGS = (); }; };
-		BEDD8DA11BAC278600265616 /* AppInfosPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BEDD8DA01BAC278600265616 /* AppInfosPlugin */; settings = {ASSET_TAGS = (); }; };
-		BEDD8DA71BAC282C00265616 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BEDD8DA31BAC282C00265616 /* .gitignore */; settings = {ASSET_TAGS = (); }; };
-		BEDD8DA81BAC282C00265616 /* CobaltAppInfosPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDD8DA51BAC282C00265616 /* CobaltAppInfosPlugin.m */; settings = {ASSET_TAGS = (); }; };
-		BEDD8DA91BAC282C00265616 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BEDD8DA61BAC282C00265616 /* LICENSE */; settings = {ASSET_TAGS = (); }; };
+		BEDD518C1BCE993300E204AC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BEDD51881BCE993300E204AC /* .gitignore */; };
+		BEDD518D1BCE993300E204AC /* ActionPickerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDD518A1BCE993300E204AC /* ActionPickerPlugin.m */; };
+		BEDD518E1BCE993300E204AC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BEDD518B1BCE993300E204AC /* LICENSE */; };
+		BEDD8DA11BAC278600265616 /* AppInfosPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BEDD8DA01BAC278600265616 /* AppInfosPlugin */; };
+		BEDD8DA71BAC282C00265616 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BEDD8DA31BAC282C00265616 /* .gitignore */; };
+		BEDD8DA81BAC282C00265616 /* CobaltAppInfosPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDD8DA51BAC282C00265616 /* CobaltAppInfosPlugin.m */; };
+		BEDD8DA91BAC282C00265616 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BEDD8DA61BAC282C00265616 /* LICENSE */; };
 		BEDE9EB41B7398C700EAEB94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDE9EB31B7398C700EAEB94 /* UIKit.framework */; };
 		BEDE9EB61B7398DB00EAEB94 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDE9EB51B7398DB00EAEB94 /* CoreLocation.framework */; };
 		C49597581717090B006454BA /* CallbacksController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49597561717090B006454BA /* CallbacksController.m */; };
@@ -59,6 +61,30 @@
 		F0FB6E4219B45EF600021401 /* common in Resources */ = {isa = PBXBuildFile; fileRef = F0FB6E4119B45EF600021401 /* common */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		BE956E9F1C47F076002DBEE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE956E991C47F076002DBEE3 /* Cobalt.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BE31EB1B1C3EC52100141B6E;
+			remoteInfo = Cobalt;
+		};
+		BE956EA11C47F076002DBEE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE956E991C47F076002DBEE3 /* Cobalt.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEFF884A1C4541FD0063AA18;
+			remoteInfo = CobaltResources;
+		};
+		BE956EA31C47F081002DBEE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE956E991C47F076002DBEE3 /* Cobalt.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEFF882F1C3ED3BC0063AA18;
+			remoteInfo = Framework;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		BEDE9EB21B7397FC00EAEB94 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -66,7 +92,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				BE043DA41BA7033000620FEA /* Cobalt.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,7 +119,6 @@
 		8E751EA619EEB62400EDFF4D /* wind@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wind@2x.png"; sourceTree = "<group>"; };
 		8E751EA719EEB62400EDFF4D /* wind@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wind@3x.png"; sourceTree = "<group>"; };
 		8EC5CAD61980FB00001777FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		BE043DA21BA7033000620FEA /* Cobalt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Cobalt.framework; path = "/Users/sebastien/Library/Developer/Xcode/DerivedData/Catalog-ccwtnmbrombouxhldgssuchqphjr/Build/Products/Debug-iphoneos/Cobalt.framework"; sourceTree = "<absolute>"; };
 		BE1ABCE01B70F98B0070657C /* CobaltLocationPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CobaltLocationPlugin.h; sourceTree = "<group>"; };
 		BE1ABCE11B70F98B0070657C /* CobaltLocationPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CobaltLocationPlugin.m; sourceTree = "<group>"; };
 		BE1ABCE31B70F9AC0070657C /* CobaltWebservicesPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CobaltWebservicesPlugin.h; path = WebServicesPlugin/CobaltWebservicesPlugin.h; sourceTree = SOURCE_ROOT; };
@@ -108,6 +132,9 @@
 		BE1ABCEF1B70F9C40070657C /* PubSubReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PubSubReceiver.h; path = PubSubPlugin/PubSubReceiver.h; sourceTree = "<group>"; };
 		BE1ABCF01B70F9C40070657C /* PubSubReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PubSubReceiver.m; path = PubSubPlugin/PubSubReceiver.m; sourceTree = "<group>"; };
 		BE1B27CB1BCE9FE2003C0C61 /* ActionPickerPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ActionPickerPlugin; path = www/ActionPickerPlugin; sourceTree = "<group>"; };
+		BE956E991C47F076002DBEE3 /* Cobalt.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cobalt.xcodeproj; path = Cobalt/Cobalt.xcodeproj; sourceTree = "<group>"; };
+		BE956EA71C47F2E3002DBEE3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE956EAB1C47F302002DBEE3 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		BEA8677E1B74E8B70072F61C /* LocationPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = LocationPlugin; path = www/LocationPlugin; sourceTree = "<group>"; };
 		BEA8677F1B74E8B70072F61C /* PubSubPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PubSubPlugin; path = www/PubSubPlugin; sourceTree = "<group>"; };
 		BEA867801B74E8B70072F61C /* WebServicesPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WebServicesPlugin; path = www/WebServicesPlugin; sourceTree = "<group>"; };
@@ -147,9 +174,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE956EA81C47F2E3002DBEE3 /* CoreGraphics.framework in Frameworks */,
 				BEDE9EB61B7398DB00EAEB94 /* CoreLocation.framework in Frameworks */,
-				BE043DA31BA7033000620FEA /* Cobalt.framework in Frameworks */,
+				BE956EAC1C47F302002DBEE3 /* JavaScriptCore.framework in Frameworks */,
 				BEDE9EB41B7398C700EAEB94 /* UIKit.framework in Frameworks */,
+				BE956EA51C47F08E002DBEE3 /* libCobalt.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +270,15 @@
 			name = AppDelegate;
 			sourceTree = "<group>";
 		};
+		BE956E9A1C47F076002DBEE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE956EA01C47F076002DBEE3 /* libCobalt.a */,
+				BE956EA21C47F076002DBEE3 /* Cobalt.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		BEDD51871BCE993300E204AC /* ActionPickerPlugin */ = {
 			isa = PBXGroup;
 			children = (
@@ -283,9 +321,11 @@
 		F01A5A0A1716EF4C0000DD94 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BE956E991C47F076002DBEE3 /* Cobalt.xcodeproj */,
+				BE956EA71C47F2E3002DBEE3 /* CoreGraphics.framework */,
 				BEDE9EB51B7398DB00EAEB94 /* CoreLocation.framework */,
+				BE956EAB1C47F302002DBEE3 /* JavaScriptCore.framework */,
 				BEDE9EB31B7398C700EAEB94 /* UIKit.framework */,
-				BE043DA21BA7033000620FEA /* Cobalt.framework */,
 				BEDD51871BCE993300E204AC /* ActionPickerPlugin */,
 				BEDD8DA21BAC282C00265616 /* AppInfosPlugin */,
 				BE1ABCEC1B70F9B50070657C /* PubSubPlugin */,
@@ -348,6 +388,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				BE956EA41C47F081002DBEE3 /* PBXTargetDependency */,
 			);
 			name = Catalog;
 			productName = Catalog;
@@ -379,12 +420,35 @@
 			mainGroup = F01A59FF1716EF4C0000DD94;
 			productRefGroup = F01A5A091716EF4C0000DD94 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BE956E9A1C47F076002DBEE3 /* Products */;
+					ProjectRef = BE956E991C47F076002DBEE3 /* Cobalt.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F01A5A071716EF4C0000DD94 /* Catalog */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		BE956EA01C47F076002DBEE3 /* libCobalt.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCobalt.a;
+			remoteRef = BE956E9F1C47F076002DBEE3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE956EA21C47F076002DBEE3 /* Cobalt.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Cobalt.bundle;
+			remoteRef = BE956EA11C47F076002DBEE3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F01A5A061716EF4C0000DD94 /* Resources */ = {
@@ -422,6 +486,7 @@
 				8E751EA819EEB62400EDFF4D /* black_sun.png in Resources */,
 				F0FB6E4219B45EF600021401 /* common in Resources */,
 				8E751EA919EEB62400EDFF4D /* black_sun@2x.png in Resources */,
+				BE956EA61C47F0B3002DBEE3 /* Cobalt.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +516,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE956EA41C47F081002DBEE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Framework;
+			targetProxy = BE956EA31C47F081002DBEE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F01A5A141716EF4C0000DD94 /* InfoPlist.strings */ = {
@@ -535,6 +608,7 @@
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Catalog-biqgtrmasainnhgdsuceqqsvjxum/Build/Products/Debug-iphoneos",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Catalog-ccwtnmbrombouxhldgssuchqphjr/Build/Products/Debug-iphoneos",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Catalog/Catalog-Prefix.pch";
@@ -560,6 +634,7 @@
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Catalog-biqgtrmasainnhgdsuceqqsvjxum/Build/Products/Debug-iphoneos",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Catalog-ccwtnmbrombouxhldgssuchqphjr/Build/Products/Debug-iphoneos",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Catalog/Catalog-Prefix.pch";

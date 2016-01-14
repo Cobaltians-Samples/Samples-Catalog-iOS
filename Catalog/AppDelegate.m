@@ -21,8 +21,9 @@
     self.window.backgroundColor = [UIColor clearColor];
     
     [Cobalt setResourcePath:RESOURCE_PATH];
-    CobaltViewController *viewController = [CobaltViewController cobaltViewControllerForController:@"default"
-                                                                                           andPage:@"index.html"];
+    
+    CobaltViewController *viewController = [Cobalt cobaltViewControllerForController:@"default"
+                                                                             andPage:@"index.html"];
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:viewController];
     self.window.rootViewController = navController;
     
