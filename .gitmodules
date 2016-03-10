@@ -1,52 +1,56 @@
 [submodule "Cobalt"]
 	path = Cobalt
 	url = git://github.com/cobaltians/Cobalt-iOS.git
-	branch = 0.4.1
+	branch = develop
 [submodule "LocationPlugin"]
 	path = LocationPlugin
 	url = git://github.com/Cobaltians-Plugins/Plugins-Location-iOS.git
-	branch = 0.4.1
+	branch = develop
 [submodule "WebServicesPlugin"]
 	path = WebServicesPlugin
 	url = git://github.com/Cobaltians-Plugins/Plugins-WebServices-iOS.git
-	branch = 0.4.1
+	branch = develop
 [submodule "PubSubPlugin"]
 	path = PubSubPlugin
 	url = git://github.com/Cobaltians-Plugins/Plugins-PubSub-iOS.git
-	branch = 0.4.1
+	branch = develop
 [submodule "Catalog/www/common"]
 	path = Catalog/www/common
 	url = git://github.com/Cobaltians-Samples/Samples-Catalog-Web.git
-	branch = 0.4.1
+	branch = develop
 [submodule "Catalog/www/platform"]
 	path = Catalog/www/platform
 	url = git://github.com/cobaltians/Cobalt-Web-iOS.git
-	branch = 0.4.1
+	branch = develop
 [submodule "Catalog/www/PubSubPlugin"]
 	path = Catalog/www/PubSubPlugin
 	url = git://github.com/cobaltians-plugins/plugins-PubSub-Web.git
+	branch = develop
 [submodule "Catalog/www/LocationPlugin"]
 	path = Catalog/www/LocationPlugin
 	url = git://github.com/cobaltians-plugins/plugins-Location-Web.git
+	branch = develop
 [submodule "Catalog/www/WebServicesPlugin"]
 	path = Catalog/www/WebServicesPlugin
 	url = git://github.com/cobaltians-plugins/plugins-Webservices-Web.git
+	branch = develop
 [submodule "Catalog/www/AppInfosPlugin"]
 	path = Catalog/www/AppInfosPlugin
 	url = git@github.com:Cobaltians-Plugins/Plugins-AppInfos-Web.git
-	branch = 0.4.1
+	branch = develop
 [submodule "AppInfosPlugin"]
 	path = AppInfosPlugin
 	url = git@github.com:Cobaltians-Plugins/Plugins-AppInfos-iOS.git
-	branch = 0.4.1
+	branch = develop
 [submodule "ActionPickerPlugin"]
 	path = ActionPickerPlugin
 	url = git@github.com:Cobaltians-Plugins/Plugins-ActionPicker-iOS.git
-	branch = 0.4.1
+	branch = develop
 [submodule "Catalog/www/ActionPickerPlugin"]
 	path = Catalog/www/ActionPickerPlugin
 	url = git@github.com:Cobaltians-Plugins/Plugins-ActionPicker-Web.git
-	branch = 0.4.1
+	branch = develop
 [submodule "Fonts-FontAwesome-iOS"]
 	path = Fonts-FontAwesome-iOS
 	url = git@github.com:Cobaltians-Fonts/Fonts-FontAwesome-iOS.git
+	branch = develop
