@@ -1,0 +1,121 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8AD56D16CD4B2AB1154CFFEC48EE30AD2B7A7E99",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3BFD49D7E966534AA392A2232D0D909340CD9929" : 0,
+    "261037BBCFA91786205128C16CADA2FB332EBBC2" : 0,
+    "209EA28999E9AAE4A9D285E56C1A2F7ABEA3B8E2" : 0,
+    "8AD56D16CD4B2AB1154CFFEC48EE30AD2B7A7E99" : 0,
+    "7453ABE70C99836A01F5BB164363F4C90D3354C5" : 0,
+    "391ECEC13F17BE877797DACD55801EECE4FEFD51" : 0,
+    "04992297F0DE6AFA765D034A9FCEABFABB1FB90F" : 0,
+    "101315F4C6008F32816F69B09871CA89956743E0" : 0,
+    "515EE2474759E3F8212D07D92D41350E48D3E104" : 0,
+    "6F40A6085C63CB23EFB59C24F01E4A3BD782E134" : 0,
+    "EA4D47DDE1CB9693693C0245EFDBA2D3D670F2BB" : 0,
+    "62A25A6B87B8E2C2DD0B6A709CD87688D2E47421" : 0,
+    "9992967ED614AF1CF41696EA7F0AA8EE114DEE84" : 0,
+    "22327B5124A2FC8C2D7ED0ACB169E57010909910" : 0,
+    "E3F1662121EC01901BC47CFCD7D69F693B2A73BC" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B838A50A-2E06-4EA2-8B6A-D9B62155E79D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3BFD49D7E966534AA392A2232D0D909340CD9929" : "Samples-Catalog-iOS\/AppInfosPlugin\/",
+    "261037BBCFA91786205128C16CADA2FB332EBBC2" : "Samples-Catalog-iOS\/ActionPickerPlugin\/",
+    "209EA28999E9AAE4A9D285E56C1A2F7ABEA3B8E2" : "Samples-Catalog-iOS\/PubSubPlugin\/",
+    "8AD56D16CD4B2AB1154CFFEC48EE30AD2B7A7E99" : "Samples-Catalog-iOS\/",
+    "7453ABE70C99836A01F5BB164363F4C90D3354C5" : "Samples-Catalog-iOS\/Catalog\/www\/platform\/",
+    "391ECEC13F17BE877797DACD55801EECE4FEFD51" : "Samples-Catalog-iOS\/LocationPlugin\/",
+    "04992297F0DE6AFA765D034A9FCEABFABB1FB90F" : "Samples-Catalog-iOS\/Catalog\/www\/PubSubPlugin\/",
+    "101315F4C6008F32816F69B09871CA89956743E0" : "Samples-Catalog-iOS\/Cobalt\/",
+    "515EE2474759E3F8212D07D92D41350E48D3E104" : "Samples-Catalog-iOS\/Catalog\/www\/ActionPickerPlugin\/",
+    "6F40A6085C63CB23EFB59C24F01E4A3BD782E134" : "Samples-Catalog-iOS\/WebServicesPlugin\/",
+    "EA4D47DDE1CB9693693C0245EFDBA2D3D670F2BB" : "Samples-Catalog-iOS\/Catalog\/www\/common\/",
+    "62A25A6B87B8E2C2DD0B6A709CD87688D2E47421" : "Samples-Catalog-iOS\/Catalog\/www\/LocationPlugin\/",
+    "9992967ED614AF1CF41696EA7F0AA8EE114DEE84" : "Samples-Catalog-iOS\/Catalog\/www\/AppInfosPlugin\/",
+    "22327B5124A2FC8C2D7ED0ACB169E57010909910" : "Samples-Catalog-iOS\/Catalog\/www\/WebServicesPlugin\/",
+    "E3F1662121EC01901BC47CFCD7D69F693B2A73BC" : "Samples-Catalog-iOS\/Fonts-FontAwesome-iOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Catalog",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Catalog.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/cobaltians-plugins\/plugins-PubSub-Web.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "04992297F0DE6AFA765D034A9FCEABFABB1FB90F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/cobaltians\/Cobalt-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "101315F4C6008F32816F69B09871CA89956743E0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/Cobaltians-Plugins\/Plugins-PubSub-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "209EA28999E9AAE4A9D285E56C1A2F7ABEA3B8E2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/cobaltians-plugins\/plugins-Webservices-Web.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "22327B5124A2FC8C2D7ED0ACB169E57010909910"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Cobaltians-Plugins\/Plugins-ActionPicker-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "261037BBCFA91786205128C16CADA2FB332EBBC2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/Cobaltians-Plugins\/Plugins-Location-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "391ECEC13F17BE877797DACD55801EECE4FEFD51"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Cobaltians-Plugins\/Plugins-AppInfos-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3BFD49D7E966534AA392A2232D0D909340CD9929"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Cobaltians-Plugins\/Plugins-ActionPicker-Web.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "515EE2474759E3F8212D07D92D41350E48D3E104"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/cobaltians-plugins\/plugins-Location-Web.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "62A25A6B87B8E2C2DD0B6A709CD87688D2E47421"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/Cobaltians-Plugins\/Plugins-WebServices-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6F40A6085C63CB23EFB59C24F01E4A3BD782E134"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/cobaltians\/Cobalt-Web-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7453ABE70C99836A01F5BB164363F4C90D3354C5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Cobaltians-Samples\/Samples-Catalog-iOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8AD56D16CD4B2AB1154CFFEC48EE30AD2B7A7E99"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Cobaltians-Plugins\/Plugins-AppInfos-Web.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9992967ED614AF1CF41696EA7F0AA8EE114DEE84"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Cobaltians-Fonts\/Fonts-FontAwesome-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E3F1662121EC01901BC47CFCD7D69F693B2A73BC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/Cobaltians-Samples\/Samples-Catalog-Web.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EA4D47DDE1CB9693693C0245EFDBA2D3D670F2BB"
+    }
+  ]
+}
