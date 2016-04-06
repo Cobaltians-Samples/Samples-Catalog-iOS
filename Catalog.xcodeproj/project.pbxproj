@@ -43,6 +43,7 @@
 		BEA867811B74E8B70072F61C /* LocationPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BEA8677E1B74E8B70072F61C /* LocationPlugin */; };
 		BEA867821B74E8B70072F61C /* PubSubPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BEA8677F1B74E8B70072F61C /* PubSubPlugin */; };
 		BEA867831B74E8B70072F61C /* WebServicesPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BEA867801B74E8B70072F61C /* WebServicesPlugin */; };
+		BEAC26FF1CB51EBD00749F08 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAC26FE1CB51EBD00749F08 /* WebKit.framework */; };
 		BEDD518C1BCE993300E204AC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BEDD51881BCE993300E204AC /* .gitignore */; };
 		BEDD518D1BCE993300E204AC /* ActionPickerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDD518A1BCE993300E204AC /* ActionPickerPlugin.m */; };
 		BEDD518E1BCE993300E204AC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BEDD518B1BCE993300E204AC /* LICENSE */; };
@@ -148,6 +149,7 @@
 		BEA8677E1B74E8B70072F61C /* LocationPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = LocationPlugin; path = www/LocationPlugin; sourceTree = "<group>"; };
 		BEA8677F1B74E8B70072F61C /* PubSubPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PubSubPlugin; path = www/PubSubPlugin; sourceTree = "<group>"; };
 		BEA867801B74E8B70072F61C /* WebServicesPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WebServicesPlugin; path = www/WebServicesPlugin; sourceTree = "<group>"; };
+		BEAC26FE1CB51EBD00749F08 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		BEDD51881BCE993300E204AC /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		BEDD51891BCE993300E204AC /* ActionPickerPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionPickerPlugin.h; sourceTree = "<group>"; };
 		BEDD518A1BCE993300E204AC /* ActionPickerPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionPickerPlugin.m; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEAC26FF1CB51EBD00749F08 /* WebKit.framework in Frameworks */,
 				BE956EBC1C47F653002DBEE3 /* CoreGraphics.framework in Frameworks */,
 				BEDE9EB61B7398DB00EAEB94 /* CoreLocation.framework in Frameworks */,
 				BE956EBE1C47F65F002DBEE3 /* JavaScriptCore.framework in Frameworks */,
@@ -347,6 +350,7 @@
 				BEDE9EB51B7398DB00EAEB94 /* CoreLocation.framework */,
 				BE956EBD1C47F65F002DBEE3 /* JavaScriptCore.framework */,
 				BEDE9EB31B7398C700EAEB94 /* UIKit.framework */,
+				BEAC26FE1CB51EBD00749F08 /* WebKit.framework */,
 				BEDD51871BCE993300E204AC /* ActionPickerPlugin */,
 				BEDD8DA21BAC282C00265616 /* AppInfosPlugin */,
 				BE7BE5411CA05CB400AADDEB /* Fonts-FontAwesome-iOS */,

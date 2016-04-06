@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EventsController">
             <connections>
                 <outlet property="view" destination="oQw-M9-06M" id="Y83-GM-JSA"/>
-                <outlet property="webView" destination="pgx-Cc-xEM" id="HT7-2a-Fau"/>
+                <outlet property="webViewPlaceholder" destination="vnJ-0M-Eqv" id="Jte-xc-6Ap"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -17,14 +17,10 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pgx-Cc-xEM">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vnJ-0M-Eqv">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
-                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                    <dataDetectorType key="dataDetectorTypes"/>
-                    <connections>
-                        <outlet property="delegate" destination="-1" id="PVm-xQ-IfF"/>
-                    </connections>
-                </webView>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VHK-9c-Oz0">
                     <rect key="frame" x="0.0" y="556" width="300" height="44"/>
                     <constraints>
@@ -55,13 +51,13 @@
                 <constraint firstAttribute="trailing" secondItem="tlL-Rj-xmA" secondAttribute="trailing" id="6cu-3u-eHG"/>
                 <constraint firstItem="tlL-Rj-xmA" firstAttribute="width" secondItem="oQw-M9-06M" secondAttribute="width" multiplier="0.5" id="GIq-Xo-1NP"/>
                 <constraint firstAttribute="bottom" secondItem="VHK-9c-Oz0" secondAttribute="bottom" id="P8w-Zu-lqk"/>
-                <constraint firstItem="pgx-Cc-xEM" firstAttribute="leading" secondItem="oQw-M9-06M" secondAttribute="leading" id="T0z-9o-59T"/>
+                <constraint firstItem="vnJ-0M-Eqv" firstAttribute="top" secondItem="oQw-M9-06M" secondAttribute="top" id="RYn-7S-KeA"/>
+                <constraint firstItem="vnJ-0M-Eqv" firstAttribute="leading" secondItem="oQw-M9-06M" secondAttribute="leading" id="Y6I-lm-HV9"/>
                 <constraint firstAttribute="bottom" secondItem="tlL-Rj-xmA" secondAttribute="bottom" id="cqP-0m-b1o"/>
-                <constraint firstItem="tlL-Rj-xmA" firstAttribute="top" secondItem="pgx-Cc-xEM" secondAttribute="bottom" id="iDt-gR-zeX"/>
-                <constraint firstItem="pgx-Cc-xEM" firstAttribute="top" secondItem="oQw-M9-06M" secondAttribute="top" id="lh6-Xq-hlR"/>
+                <constraint firstItem="tlL-Rj-xmA" firstAttribute="top" secondItem="vnJ-0M-Eqv" secondAttribute="bottom" id="l06-zN-8SE"/>
+                <constraint firstItem="vnJ-0M-Eqv" firstAttribute="width" secondItem="oQw-M9-06M" secondAttribute="width" id="lax-BQ-5yg"/>
                 <constraint firstItem="VHK-9c-Oz0" firstAttribute="width" secondItem="oQw-M9-06M" secondAttribute="width" multiplier="0.5" id="mCb-9E-pp4"/>
                 <constraint firstItem="VHK-9c-Oz0" firstAttribute="leading" secondItem="oQw-M9-06M" secondAttribute="leading" id="u7s-Ck-CcQ"/>
-                <constraint firstItem="pgx-Cc-xEM" firstAttribute="width" secondItem="oQw-M9-06M" secondAttribute="width" id="wQ2-Zb-4bt"/>
             </constraints>
         </view>
     </objects>
