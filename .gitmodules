@@ -54,3 +54,9 @@
 	path = Fonts-FontAwesome-iOS
 	url = git@github.com:Cobaltians-Fonts/Fonts-FontAwesome-iOS.git
 	branch = develop
+[submodule "NetworkStatusPlugin"]
+	path = NetworkStatusPlugin
+	url = git@github.com:Cobaltians-Plugins/Plugins-NetworkStatus-iOS.git
+[submodule "Catalog/www/NetworkStatusPlugin"]
+	path = Catalog/www/NetworkStatusPlugin
+	url = git@github.com:Cobaltians-Plugins/Plugins-NetworkStatus-Web.git
