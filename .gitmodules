@@ -36,27 +36,27 @@
 	branch = develop
 [submodule "Catalog/www/AppInfosPlugin"]
 	path = Catalog/www/AppInfosPlugin
-	url = git@github.com:Cobaltians-Plugins/Plugins-AppInfos-Web.git
+	url = git://github.com/Cobaltians-Plugins/Plugins-AppInfos-Web.git
 	branch = develop
 [submodule "AppInfosPlugin"]
 	path = AppInfosPlugin
-	url = git@github.com:Cobaltians-Plugins/Plugins-AppInfos-iOS.git
+	url = git://github.com/Cobaltians-Plugins/Plugins-AppInfos-iOS.git
 	branch = develop
 [submodule "ActionPickerPlugin"]
 	path = ActionPickerPlugin
-	url = git@github.com:Cobaltians-Plugins/Plugins-ActionPicker-iOS.git
+	url = git://github.com/Cobaltians-Plugins/Plugins-ActionPicker-iOS.git
 	branch = develop
 [submodule "Catalog/www/ActionPickerPlugin"]
 	path = Catalog/www/ActionPickerPlugin
-	url = git@github.com:Cobaltians-Plugins/Plugins-ActionPicker-Web.git
+	url = git://github.com/Cobaltians-Plugins/Plugins-ActionPicker-Web.git
 	branch = develop
 [submodule "Fonts-FontAwesome-iOS"]
 	path = Fonts-FontAwesome-iOS
-	url = git@github.com:Cobaltians-Fonts/Fonts-FontAwesome-iOS.git
+	url = git://github.com/Cobaltians-Fonts/Fonts-FontAwesome-iOS.git
 	branch = develop
 [submodule "NetworkStatusPlugin"]
 	path = NetworkStatusPlugin
-	url = git@github.com:Cobaltians-Plugins/Plugins-NetworkStatus-iOS.git
+	url = git://github.com/Cobaltians-Plugins/Plugins-NetworkStatus-iOS.git
 [submodule "Catalog/www/NetworkStatusPlugin"]
 	path = Catalog/www/NetworkStatusPlugin
-	url = git@github.com:Cobaltians-Plugins/Plugins-NetworkStatus-Web.git
+	url = git://github.com/Cobaltians-Plugins/Plugins-NetworkStatus-Web.git
