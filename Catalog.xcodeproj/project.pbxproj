@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6AAF550A1CD8DD0C005C3123 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6AAF55041CD8DD0C005C3123 /* .gitignore */; };
+		6AAF550B1CD8DD0C005C3123 /* CobaltNetworkStatusPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAF55061CD8DD0C005C3123 /* CobaltNetworkStatusPlugin.m */; };
+		6AAF550C1CD8DD0C005C3123 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6AAF55071CD8DD0C005C3123 /* LICENSE */; };
+		6AAF550D1CD8DD0C005C3123 /* NetworkChangeReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAF55091CD8DD0C005C3123 /* NetworkChangeReceiver.m */; };
+		6AAF55151CD8DD19005C3123 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6AAF550F1CD8DD19005C3123 /* .gitignore */; };
+		6AAF55161CD8DD19005C3123 /* BatteryChangeReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAF55111CD8DD19005C3123 /* BatteryChangeReceiver.m */; };
+		6AAF55171CD8DD19005C3123 /* CobaltBatteryStatusPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAF55131CD8DD19005C3123 /* CobaltBatteryStatusPlugin.m */; };
+		6AAF55181CD8DD19005C3123 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6AAF55141CD8DD19005C3123 /* LICENSE */; };
+		6AAF551A1CD8DD3A005C3123 /* NetworkStatusPlugin in Resources */ = {isa = PBXBuildFile; fileRef = 6AAF55191CD8DD3A005C3123 /* NetworkStatusPlugin */; };
+		6AAF551C1CD8DD47005C3123 /* BatteryStatusPlugin in Resources */ = {isa = PBXBuildFile; fileRef = 6AAF551B1CD8DD47005C3123 /* BatteryStatusPlugin */; };
+		6AAF551E1CD8DE04005C3123 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AAF551D1CD8DE04005C3123 /* SystemConfiguration.framework */; };
 		8E1070BF1987ED8800DED934 /* CustomizedPulltoRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1070BE1987ED8800DED934 /* CustomizedPulltoRefreshViewController.m */; };
 		8E3C678919FF96D2007353AC /* PluginsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3C678819FF96D2007353AC /* PluginsController.m */; };
 		8E751EA819EEB62400EDFF4D /* black_sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E751E9919EEB62400EDFF4D /* black_sun.png */; };
@@ -103,6 +114,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6AAF55041CD8DD0C005C3123 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		6AAF55051CD8DD0C005C3123 /* CobaltNetworkStatusPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CobaltNetworkStatusPlugin.h; sourceTree = "<group>"; };
+		6AAF55061CD8DD0C005C3123 /* CobaltNetworkStatusPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CobaltNetworkStatusPlugin.m; sourceTree = "<group>"; };
+		6AAF55071CD8DD0C005C3123 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6AAF55081CD8DD0C005C3123 /* NetworkChangeReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkChangeReceiver.h; sourceTree = "<group>"; };
+		6AAF55091CD8DD0C005C3123 /* NetworkChangeReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkChangeReceiver.m; sourceTree = "<group>"; };
+		6AAF550F1CD8DD19005C3123 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		6AAF55101CD8DD19005C3123 /* BatteryChangeReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BatteryChangeReceiver.h; sourceTree = "<group>"; };
+		6AAF55111CD8DD19005C3123 /* BatteryChangeReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BatteryChangeReceiver.m; sourceTree = "<group>"; };
+		6AAF55121CD8DD19005C3123 /* CobaltBatteryStatusPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CobaltBatteryStatusPlugin.h; sourceTree = "<group>"; };
+		6AAF55131CD8DD19005C3123 /* CobaltBatteryStatusPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CobaltBatteryStatusPlugin.m; sourceTree = "<group>"; };
+		6AAF55141CD8DD19005C3123 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6AAF55191CD8DD3A005C3123 /* NetworkStatusPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = NetworkStatusPlugin; path = www/NetworkStatusPlugin; sourceTree = "<group>"; };
+		6AAF551B1CD8DD47005C3123 /* BatteryStatusPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = BatteryStatusPlugin; path = www/BatteryStatusPlugin; sourceTree = "<group>"; };
+		6AAF551D1CD8DE04005C3123 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		8E1070BD1987ED8800DED934 /* CustomizedPulltoRefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomizedPulltoRefreshViewController.h; sourceTree = "<group>"; };
 		8E1070BE1987ED8800DED934 /* CustomizedPulltoRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomizedPulltoRefreshViewController.m; sourceTree = "<group>"; };
 		8E3C678719FF96D2007353AC /* PluginsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginsController.h; sourceTree = "<group>"; };
@@ -184,6 +210,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AAF551E1CD8DE04005C3123 /* SystemConfiguration.framework in Frameworks */,
 				BE956EBC1C47F653002DBEE3 /* CoreGraphics.framework in Frameworks */,
 				BEDE9EB61B7398DB00EAEB94 /* CoreLocation.framework in Frameworks */,
 				BE956EBE1C47F65F002DBEE3 /* JavaScriptCore.framework in Frameworks */,
@@ -195,6 +222,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6AAF55031CD8DD0C005C3123 /* NetworkStatusPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				6AAF55041CD8DD0C005C3123 /* .gitignore */,
+				6AAF55051CD8DD0C005C3123 /* CobaltNetworkStatusPlugin.h */,
+				6AAF55061CD8DD0C005C3123 /* CobaltNetworkStatusPlugin.m */,
+				6AAF55071CD8DD0C005C3123 /* LICENSE */,
+				6AAF55081CD8DD0C005C3123 /* NetworkChangeReceiver.h */,
+				6AAF55091CD8DD0C005C3123 /* NetworkChangeReceiver.m */,
+			);
+			path = NetworkStatusPlugin;
+			sourceTree = "<group>";
+		};
+		6AAF550E1CD8DD19005C3123 /* BatteryStatusPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				6AAF550F1CD8DD19005C3123 /* .gitignore */,
+				6AAF55101CD8DD19005C3123 /* BatteryChangeReceiver.h */,
+				6AAF55111CD8DD19005C3123 /* BatteryChangeReceiver.m */,
+				6AAF55121CD8DD19005C3123 /* CobaltBatteryStatusPlugin.h */,
+				6AAF55131CD8DD19005C3123 /* CobaltBatteryStatusPlugin.m */,
+				6AAF55141CD8DD19005C3123 /* LICENSE */,
+			);
+			path = BatteryStatusPlugin;
+			sourceTree = "<group>";
+		};
 		8E751E9819EEB62400EDFF4D /* Design */ = {
 			isa = PBXGroup;
 			children = (
@@ -259,6 +312,8 @@
 		BE3DEED21AC19B8600EF45ED /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				6AAF551B1CD8DD47005C3123 /* BatteryStatusPlugin */,
+				6AAF55191CD8DD3A005C3123 /* NetworkStatusPlugin */,
 				F0FB6E4119B45EF600021401 /* common */,
 				F0FB6E3F19B45EED00021401 /* platform */,
 				BE1B27CB1BCE9FE2003C0C61 /* ActionPickerPlugin */,
@@ -342,6 +397,9 @@
 		F01A5A0A1716EF4C0000DD94 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6AAF551D1CD8DE04005C3123 /* SystemConfiguration.framework */,
+				6AAF550E1CD8DD19005C3123 /* BatteryStatusPlugin */,
+				6AAF55031CD8DD0C005C3123 /* NetworkStatusPlugin */,
 				BE956EAD1C47F5BC002DBEE3 /* Cobalt.xcodeproj */,
 				BE956EBB1C47F653002DBEE3 /* CoreGraphics.framework */,
 				BEDE9EB51B7398DB00EAEB94 /* CoreLocation.framework */,
@@ -479,6 +537,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AAF551A1CD8DD3A005C3123 /* NetworkStatusPlugin in Resources */,
 				BE7BE5471CA05CB400AADDEB /* .gitignore in Resources */,
 				8E751EB619EEB62400EDFF4D /* wind@3x.png in Resources */,
 				BEDD518C1BCE993300E204AC /* .gitignore in Resources */,
@@ -487,18 +546,22 @@
 				8E751EB319EEB62400EDFF4D /* sun@3x.png in Resources */,
 				8E751EAB19EEB62400EDFF4D /* cloudy.png in Resources */,
 				F01A5A161716EF4C0000DD94 /* InfoPlist.strings in Resources */,
+				6AAF550C1CD8DD0C005C3123 /* LICENSE in Resources */,
 				BE7BE54A1CA05CB400AADDEB /* LICENSE in Resources */,
 				8E751EAD19EEB62400EDFF4D /* cloudy@3x.png in Resources */,
 				BEDD8DA71BAC282C00265616 /* .gitignore in Resources */,
 				BE1B27CC1BCE9FE2003C0C61 /* ActionPickerPlugin in Resources */,
 				8E751EAA19EEB62400EDFF4D /* black_sun@3x.png in Resources */,
 				8E751EB119EEB62400EDFF4D /* sun.png in Resources */,
+				6AAF55181CD8DD19005C3123 /* LICENSE in Resources */,
 				BEDD8DA91BAC282C00265616 /* LICENSE in Resources */,
 				8EC5CAD71980FB00001777FA /* Images.xcassets in Resources */,
+				6AAF550A1CD8DD0C005C3123 /* .gitignore in Resources */,
 				8E751EB519EEB62400EDFF4D /* wind@2x.png in Resources */,
 				8E751EAC19EEB62400EDFF4D /* cloudy@2x.png in Resources */,
 				BEF814331CAD63FC004D512A /* LaunchScreen.storyboard in Resources */,
 				BEA867821B74E8B70072F61C /* PubSubPlugin in Resources */,
+				6AAF551C1CD8DD47005C3123 /* BatteryStatusPlugin in Resources */,
 				BEA867831B74E8B70072F61C /* WebServicesPlugin in Resources */,
 				C49597591717090B006454BA /* CallbacksController.xib in Resources */,
 				C4D664A3171E8D97009EDE58 /* EventsController.xib in Resources */,
@@ -507,6 +570,7 @@
 				BE7BE5491CA05CB400AADDEB /* FontAwesome.ttf in Resources */,
 				BEDD8DA11BAC278600265616 /* AppInfosPlugin in Resources */,
 				8E751EB219EEB62400EDFF4D /* sun@2x.png in Resources */,
+				6AAF55151CD8DD19005C3123 /* .gitignore in Resources */,
 				BEDD518E1BCE993300E204AC /* LICENSE in Resources */,
 				BEA867811B74E8B70072F61C /* LocationPlugin in Resources */,
 				8E751EAE19EEB62400EDFF4D /* moon.png in Resources */,
@@ -528,14 +592,18 @@
 				BE1ABCEA1B70F9AC0070657C /* NSThread+withBlocks.m in Sources */,
 				8E3C678919FF96D2007353AC /* PluginsController.m in Sources */,
 				BE1ABCE91B70F9AC0070657C /* CobaltWebservicesPlugin.m in Sources */,
+				6AAF55161CD8DD19005C3123 /* BatteryChangeReceiver.m in Sources */,
 				BEDD518D1BCE993300E204AC /* ActionPickerPlugin.m in Sources */,
 				BE1ABCEB1B70F9AC0070657C /* WebServicesAPI.m in Sources */,
 				F01A5A181716EF4D0000DD94 /* main.m in Sources */,
 				BEDD8DA81BAC282C00265616 /* CobaltAppInfosPlugin.m in Sources */,
 				F01A5A1C1716EF4D0000DD94 /* AppDelegate.m in Sources */,
+				6AAF550B1CD8DD0C005C3123 /* CobaltNetworkStatusPlugin.m in Sources */,
 				BE1ABCE21B70F98B0070657C /* CobaltLocationPlugin.m in Sources */,
 				BE1ABCF21B70F9C40070657C /* PubSubReceiver.m in Sources */,
+				6AAF55171CD8DD19005C3123 /* CobaltBatteryStatusPlugin.m in Sources */,
 				8E1070BF1987ED8800DED934 /* CustomizedPulltoRefreshViewController.m in Sources */,
+				6AAF550D1CD8DD0C005C3123 /* NetworkChangeReceiver.m in Sources */,
 				C49597581717090B006454BA /* CallbacksController.m in Sources */,
 				C4D664A2171E8D97009EDE58 /* EventsController.m in Sources */,
 				BE1ABCF11B70F9C40070657C /* PubSubPlugin.m in Sources */,

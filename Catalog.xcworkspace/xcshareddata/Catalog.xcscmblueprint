@@ -4,8 +4,8 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "3BFD49D7E966534AA392A2232D0D909340CD9929" : 0,
     "261037BBCFA91786205128C16CADA2FB332EBBC2" : 0,
+    "3BFD49D7E966534AA392A2232D0D909340CD9929" : 0,
     "209EA28999E9AAE4A9D285E56C1A2F7ABEA3B8E2" : 0,
     "8AD56D16CD4B2AB1154CFFEC48EE30AD2B7A7E99" : 0,
     "7453ABE70C99836A01F5BB164363F4C90D3354C5" : 0,
@@ -16,14 +16,18 @@
     "6F40A6085C63CB23EFB59C24F01E4A3BD782E134" : 0,
     "EA4D47DDE1CB9693693C0245EFDBA2D3D670F2BB" : 0,
     "62A25A6B87B8E2C2DD0B6A709CD87688D2E47421" : 0,
+    "8A5F7A89CD900292423BAF44F2A82641A699DB3A" : 0,
     "9992967ED614AF1CF41696EA7F0AA8EE114DEE84" : 0,
+    "A33345F2E88E642A94CC731946134C923DC59255" : 0,
+    "7D00B6424A18306A2F1C5708F69B42382B02C684" : 0,
+    "711D21754D9DDA48491862CD9A233C6FC8DBB29D" : 0,
     "22327B5124A2FC8C2D7ED0ACB169E57010909910" : 0,
     "E3F1662121EC01901BC47CFCD7D69F693B2A73BC" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B838A50A-2E06-4EA2-8B6A-D9B62155E79D",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "3BFD49D7E966534AA392A2232D0D909340CD9929" : "Samples-Catalog-iOS\/AppInfosPlugin\/",
     "261037BBCFA91786205128C16CADA2FB332EBBC2" : "Samples-Catalog-iOS\/ActionPickerPlugin\/",
+    "3BFD49D7E966534AA392A2232D0D909340CD9929" : "Samples-Catalog-iOS\/AppInfosPlugin\/",
     "209EA28999E9AAE4A9D285E56C1A2F7ABEA3B8E2" : "Samples-Catalog-iOS\/PubSubPlugin\/",
     "8AD56D16CD4B2AB1154CFFEC48EE30AD2B7A7E99" : "Samples-Catalog-iOS\/",
     "7453ABE70C99836A01F5BB164363F4C90D3354C5" : "Samples-Catalog-iOS\/Catalog\/www\/platform\/",
@@ -34,7 +38,11 @@
     "6F40A6085C63CB23EFB59C24F01E4A3BD782E134" : "Samples-Catalog-iOS\/WebServicesPlugin\/",
     "EA4D47DDE1CB9693693C0245EFDBA2D3D670F2BB" : "Samples-Catalog-iOS\/Catalog\/www\/common\/",
     "62A25A6B87B8E2C2DD0B6A709CD87688D2E47421" : "Samples-Catalog-iOS\/Catalog\/www\/LocationPlugin\/",
+    "8A5F7A89CD900292423BAF44F2A82641A699DB3A" : "Samples-Catalog-iOS\/BatteryStatusPlugin\/",
     "9992967ED614AF1CF41696EA7F0AA8EE114DEE84" : "Samples-Catalog-iOS\/Catalog\/www\/AppInfosPlugin\/",
+    "A33345F2E88E642A94CC731946134C923DC59255" : "Samples-Catalog-iOS\/NetworkStatusPlugin\/",
+    "7D00B6424A18306A2F1C5708F69B42382B02C684" : "Samples-Catalog-iOS\/Catalog\/www\/NetworkStatusPlugin\/",
+    "711D21754D9DDA48491862CD9A233C6FC8DBB29D" : "Samples-Catalog-iOS\/Catalog\/www\/BatteryStatusPlugin\/",
     "22327B5124A2FC8C2D7ED0ACB169E57010909910" : "Samples-Catalog-iOS\/Catalog\/www\/WebServicesPlugin\/",
     "E3F1662121EC01901BC47CFCD7D69F693B2A73BC" : "Samples-Catalog-iOS\/Fonts-FontAwesome-iOS\/"
   },
@@ -93,9 +101,24 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6F40A6085C63CB23EFB59C24F01E4A3BD782E134"
     },
     {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/Cobaltians-Plugins\/Plugins-BatteryStatus-Web.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "711D21754D9DDA48491862CD9A233C6FC8DBB29D"
+    },
+    {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/cobaltians\/Cobalt-Web-iOS.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7453ABE70C99836A01F5BB164363F4C90D3354C5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/Cobaltians-Plugins\/Plugins-NetworkStatus-Web.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7D00B6424A18306A2F1C5708F69B42382B02C684"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/Cobaltians-Plugins\/Plugins-BatteryStatus-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8A5F7A89CD900292423BAF44F2A82641A699DB3A"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Cobaltians-Samples\/Samples-Catalog-iOS",
@@ -106,6 +129,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Cobaltians-Plugins\/Plugins-AppInfos-Web.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9992967ED614AF1CF41696EA7F0AA8EE114DEE84"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/Cobaltians-Plugins\/Plugins-NetworkStatus-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A33345F2E88E642A94CC731946134C923DC59255"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Cobaltians-Fonts\/Fonts-FontAwesome-iOS.git",
