@@ -60,3 +60,11 @@
 [submodule "Catalog/www/NetworkStatusPlugin"]
 	path = Catalog/www/NetworkStatusPlugin
 	url = git://github.com/Cobaltians-Plugins/Plugins-NetworkStatus-Web.git
+[submodule "BatteryStatusPlugin"]
+	path = BatteryStatusPlugin
+	url = git://github.com/Cobaltians-Plugins/Plugins-BatteryStatus-iOS.git
+	branch = develop
+[submodule "Catalog/www/BatteryStatusPlugin"]
+	path = Catalog/www/BatteryStatusPlugin
+	url = git://github.com/Cobaltians-Plugins/Plugins-BatteryStatus-Web.git
+	branch = develop
