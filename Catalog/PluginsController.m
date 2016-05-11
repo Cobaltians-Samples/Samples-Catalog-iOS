@@ -37,38 +37,33 @@
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
-- (id)processData:(id)data withParameters:(NSDictionary *)parameters {
-    if(parameters) {
-        NSString * ext = [parameters objectForKey: @"ext"];
-        if(ext && [data isKindOfClass: [NSDictionary class]]) {
-            NSMutableDictionary * dataToReturn = [(NSDictionary *)data mutableCopy];
-            NSMutableDictionary * responseData = [[dataToReturn objectForKey: @"responseData"] mutableCopy];
-            if(responseData)
-            {
-                NSArray * results = [responseData objectForKey: @"results"];
-                NSMutableArray * resultsMutableCopy = [results mutableCopy];
-                
-                if(results) {
-                    
-                    for (NSDictionary * result in results)
-                    {
-                        NSString * url = [result objectForKey: @"unescapedUrl"];
-                        if(![url hasSuffix: ext]) {
-                            [resultsMutableCopy removeObject: result];
-                        }
-                    }
-                    
-                    [responseData setObject: resultsMutableCopy forKey: @"results"];
-                    [dataToReturn setObject: responseData forKey: @"responseData"];
-                    
-                    return dataToReturn;
+- (id) processData: (id) data withParameters: (NSDictionary *) parameters {
+    if (parameters) {
+        NSString * countParameter = [parameters objectForKey: @"count"];
+
+        if (countParameter && [data isKindOfClass: [NSDictionary class]]) {
+            int count = [countParameter intValue];
+
+            NSMutableDictionary * dataToReturn = [(NSDictionary *) data mutableCopy];
+            NSMutableArray * imageList = [[data objectForKey: @"result"]  mutableCopy];
+            NSMutableArray * filteredImageList = [NSMutableArray array];
+
+            if (imageList) {
+                unsigned long max = MIN(count, [imageList count]);
+
+                for (int i = 0; i < max; i++) {
+                    int randomIndex = arc4random_uniform((int) [imageList count]);
+                    id randomImage = [imageList objectAtIndex: randomIndex];
+                    [filteredImageList addObject: randomImage];
                 }
-                
-                
+
+                [dataToReturn setObject: filteredImageList forKey: @"result"];
+
+                return dataToReturn;
             }
         }
     }
-    
+
     return data;
 }
 
