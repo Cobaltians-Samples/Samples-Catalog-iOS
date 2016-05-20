@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		542538FB1CEF2A7700190AF9 /* SharePlugin in Resources */ = {isa = PBXBuildFile; fileRef = 542538FA1CEF2A7700190AF9 /* SharePlugin */; };
+		542538FD1CEF2AE500190AF9 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542538FC1CEF2AE500190AF9 /* AddressBook.framework */; };
+		542538FF1CEF3AB800190AF9 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 542538FE1CEF3AB800190AF9 /* logo.png */; };
+		54EC75561CEF2910006E02DD /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 54EC75521CEF2910006E02DD /* .gitignore */; };
+		54EC75571CEF2910006E02DD /* CobaltSharePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC75541CEF2910006E02DD /* CobaltSharePlugin.m */; };
+		54EC75581CEF2910006E02DD /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 54EC75551CEF2910006E02DD /* LICENSE */; };
 		6AAF550A1CD8DD0C005C3123 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6AAF55041CD8DD0C005C3123 /* .gitignore */; };
 		6AAF550B1CD8DD0C005C3123 /* CobaltNetworkStatusPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAF55061CD8DD0C005C3123 /* CobaltNetworkStatusPlugin.m */; };
 		6AAF550C1CD8DD0C005C3123 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6AAF55071CD8DD0C005C3123 /* LICENSE */; };
@@ -114,6 +120,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		542538FA1CEF2A7700190AF9 /* SharePlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SharePlugin; path = www/SharePlugin; sourceTree = "<group>"; };
+		542538FC1CEF2AE500190AF9 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		542538FE1CEF3AB800190AF9 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		54EC75521CEF2910006E02DD /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		54EC75531CEF2910006E02DD /* CobaltSharePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CobaltSharePlugin.h; sourceTree = "<group>"; };
+		54EC75541CEF2910006E02DD /* CobaltSharePlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CobaltSharePlugin.m; sourceTree = "<group>"; };
+		54EC75551CEF2910006E02DD /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6AAF55041CD8DD0C005C3123 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		6AAF55051CD8DD0C005C3123 /* CobaltNetworkStatusPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CobaltNetworkStatusPlugin.h; sourceTree = "<group>"; };
 		6AAF55061CD8DD0C005C3123 /* CobaltNetworkStatusPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CobaltNetworkStatusPlugin.m; sourceTree = "<group>"; };
@@ -210,6 +223,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				542538FD1CEF2AE500190AF9 /* AddressBook.framework in Frameworks */,
 				6AAF551E1CD8DE04005C3123 /* SystemConfiguration.framework in Frameworks */,
 				BE956EBC1C47F653002DBEE3 /* CoreGraphics.framework in Frameworks */,
 				BEDE9EB61B7398DB00EAEB94 /* CoreLocation.framework in Frameworks */,
@@ -222,6 +236,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54EC75511CEF2910006E02DD /* SharePlugin */ = {
+			isa = PBXGroup;
+			children = (
+				54EC75521CEF2910006E02DD /* .gitignore */,
+				54EC75531CEF2910006E02DD /* CobaltSharePlugin.h */,
+				54EC75541CEF2910006E02DD /* CobaltSharePlugin.m */,
+				54EC75551CEF2910006E02DD /* LICENSE */,
+			);
+			path = SharePlugin;
+			sourceTree = "<group>";
+		};
 		6AAF55031CD8DD0C005C3123 /* NetworkStatusPlugin */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,6 +283,7 @@
 				8E751E9D19EEB62400EDFF4D /* cloudy@2x.png */,
 				8E751E9E19EEB62400EDFF4D /* cloudy@3x.png */,
 				8E751E9F19EEB62400EDFF4D /* moon.png */,
+				542538FE1CEF3AB800190AF9 /* logo.png */,
 				8E751EA019EEB62400EDFF4D /* moon@2x.png */,
 				8E751EA119EEB62400EDFF4D /* moon@3x.png */,
 				8E751EA219EEB62400EDFF4D /* sun.png */,
@@ -312,6 +338,7 @@
 		BE3DEED21AC19B8600EF45ED /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				542538FA1CEF2A7700190AF9 /* SharePlugin */,
 				6AAF551B1CD8DD47005C3123 /* BatteryStatusPlugin */,
 				6AAF55191CD8DD3A005C3123 /* NetworkStatusPlugin */,
 				F0FB6E4119B45EF600021401 /* common */,
@@ -397,6 +424,7 @@
 		F01A5A0A1716EF4C0000DD94 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				542538FC1CEF2AE500190AF9 /* AddressBook.framework */,
 				6AAF551D1CD8DE04005C3123 /* SystemConfiguration.framework */,
 				6AAF550E1CD8DD19005C3123 /* BatteryStatusPlugin */,
 				6AAF55031CD8DD0C005C3123 /* NetworkStatusPlugin */,
@@ -409,6 +437,7 @@
 				BEDD8DA21BAC282C00265616 /* AppInfosPlugin */,
 				BE7BE5411CA05CB400AADDEB /* Fonts-FontAwesome-iOS */,
 				BE1ABCEC1B70F9B50070657C /* PubSubPlugin */,
+				54EC75511CEF2910006E02DD /* SharePlugin */,
 				BE1ABCD81B70F9730070657C /* LocationPlugin */,
 				F0AF225B1AFD639400B58B07 /* WebServicesPlugin */,
 			);
@@ -537,6 +566,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54EC75581CEF2910006E02DD /* LICENSE in Resources */,
 				6AAF551A1CD8DD3A005C3123 /* NetworkStatusPlugin in Resources */,
 				BE7BE5471CA05CB400AADDEB /* .gitignore in Resources */,
 				8E751EB619EEB62400EDFF4D /* wind@3x.png in Resources */,
@@ -547,8 +577,10 @@
 				8E751EAB19EEB62400EDFF4D /* cloudy.png in Resources */,
 				F01A5A161716EF4C0000DD94 /* InfoPlist.strings in Resources */,
 				6AAF550C1CD8DD0C005C3123 /* LICENSE in Resources */,
+				542538FF1CEF3AB800190AF9 /* logo.png in Resources */,
 				BE7BE54A1CA05CB400AADDEB /* LICENSE in Resources */,
 				8E751EAD19EEB62400EDFF4D /* cloudy@3x.png in Resources */,
+				542538FB1CEF2A7700190AF9 /* SharePlugin in Resources */,
 				BEDD8DA71BAC282C00265616 /* .gitignore in Resources */,
 				BE1B27CC1BCE9FE2003C0C61 /* ActionPickerPlugin in Resources */,
 				8E751EAA19EEB62400EDFF4D /* black_sun@3x.png in Resources */,
@@ -559,6 +591,7 @@
 				6AAF550A1CD8DD0C005C3123 /* .gitignore in Resources */,
 				8E751EB519EEB62400EDFF4D /* wind@2x.png in Resources */,
 				8E751EAC19EEB62400EDFF4D /* cloudy@2x.png in Resources */,
+				54EC75561CEF2910006E02DD /* .gitignore in Resources */,
 				BEF814331CAD63FC004D512A /* LaunchScreen.storyboard in Resources */,
 				BEA867821B74E8B70072F61C /* PubSubPlugin in Resources */,
 				6AAF551C1CD8DD47005C3123 /* BatteryStatusPlugin in Resources */,
@@ -607,6 +640,7 @@
 				C49597581717090B006454BA /* CallbacksController.m in Sources */,
 				C4D664A2171E8D97009EDE58 /* EventsController.m in Sources */,
 				BE1ABCF11B70F9C40070657C /* PubSubPlugin.m in Sources */,
+				54EC75571CEF2910006E02DD /* CobaltSharePlugin.m in Sources */,
 				C4D664AA171E91D5009EDE58 /* SimpleController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

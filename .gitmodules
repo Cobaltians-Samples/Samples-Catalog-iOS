@@ -68,3 +68,11 @@
 	path = Catalog/www/BatteryStatusPlugin
 	url = git://github.com/Cobaltians-Plugins/Plugins-BatteryStatus-Web.git
 	branch = develop
+[submodule "SharePlugin"]
+	path = SharePlugin
+	url = https://github.com/Cobaltians-Plugins/Plugins-Share-iOS.git
+	branch = develop
+[submodule "Catalog/www/SharePlugin"]
+	path = Catalog/www/SharePlugin
+	url = git://github.com/Cobaltians-Plugins/Plugins-Share-Web.git
+	branch = develop
