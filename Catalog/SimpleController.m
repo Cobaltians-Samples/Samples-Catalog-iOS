@@ -86,4 +86,16 @@
     return NO;
 }
 
+- (void)showAlert:(NSDictionary *)dict {
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Native Alert"
+                                                        message:@"Does this one will be catched by Web?"
+                                                       delegate:self
+                                              cancelButtonTitle:@"OK"
+                                              otherButtonTitles:nil];
+    alertView.tag = 1;
+    [alertView show];
+    
+    [super showAlert:dict];
+}
+
 @end
