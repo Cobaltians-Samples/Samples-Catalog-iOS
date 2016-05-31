@@ -76,3 +76,11 @@
 	path = Catalog/www/SharePlugin
 	url = git://github.com/Cobaltians-Plugins/Plugins-Share-Web.git
 	branch = develop
+[submodule "PdfPlugin"]
+	path = PdfPlugin
+	url = git@github.com:Cobaltians-Plugins/Plugins-Pdf-iOS.git
+	branch = develop
+[submodule "Catalog/www/PdfPlugin"]
+	path = Catalog/www/PdfPlugin
+	url = git@github.com:Cobaltians-Plugins/Plugins-Pdf-Web.git
+	branch = develop
