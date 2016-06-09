@@ -63,6 +63,7 @@
 		BE956EBA1C47F5D6002DBEE3 /* Cobalt.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BE956EB61C47F5BC002DBEE3 /* Cobalt.bundle */; };
 		BE956EBC1C47F653002DBEE3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE956EBB1C47F653002DBEE3 /* CoreGraphics.framework */; };
 		BE956EBE1C47F65F002DBEE3 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE956EBD1C47F65F002DBEE3 /* JavaScriptCore.framework */; };
+		BE9BC89A1D0717E600152C70 /* LocationListener.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9BC8991D0717E600152C70 /* LocationListener.m */; };
 		BEA867811B74E8B70072F61C /* LocationPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BEA8677E1B74E8B70072F61C /* LocationPlugin */; };
 		BEA867821B74E8B70072F61C /* PubSubPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BEA8677F1B74E8B70072F61C /* PubSubPlugin */; };
 		BEA867831B74E8B70072F61C /* WebServicesPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BEA867801B74E8B70072F61C /* WebServicesPlugin */; };
@@ -198,6 +199,8 @@
 		BE956EAD1C47F5BC002DBEE3 /* Cobalt.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cobalt.xcodeproj; path = Cobalt/Cobalt.xcodeproj; sourceTree = "<group>"; };
 		BE956EBB1C47F653002DBEE3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		BE956EBD1C47F65F002DBEE3 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		BE9BC8981D0717E600152C70 /* LocationListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationListener.h; sourceTree = "<group>"; };
+		BE9BC8991D0717E600152C70 /* LocationListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationListener.m; sourceTree = "<group>"; };
 		BEA8677E1B74E8B70072F61C /* LocationPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = LocationPlugin; path = www/LocationPlugin; sourceTree = "<group>"; };
 		BEA8677F1B74E8B70072F61C /* PubSubPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PubSubPlugin; path = www/PubSubPlugin; sourceTree = "<group>"; };
 		BEA867801B74E8B70072F61C /* WebServicesPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WebServicesPlugin; path = www/WebServicesPlugin; sourceTree = "<group>"; };
@@ -329,6 +332,8 @@
 				6A9D807A1D056D1600EC5B85 /* LocationListener.h */,
 				BE1ABCE01B70F98B0070657C /* CobaltLocationPlugin.h */,
 				BE1ABCE11B70F98B0070657C /* CobaltLocationPlugin.m */,
+				BE9BC8981D0717E600152C70 /* LocationListener.h */,
+				BE9BC8991D0717E600152C70 /* LocationListener.m */,
 			);
 			path = LocationPlugin;
 			sourceTree = "<group>";
