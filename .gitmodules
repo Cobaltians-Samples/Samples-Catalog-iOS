@@ -80,3 +80,7 @@
 	path = Catalog/www/PdfPlugin
 	url = git@github.com:Cobaltians-Plugins/Plugins-Pdf-Web.git
 	branch = develop
+[submodule "PdfPlugin"]
+	path = PdfPlugin
+	url = https://github.com/Cobaltians-Plugins/Plugins-Pdf-iOS.git
+	branch = develop
