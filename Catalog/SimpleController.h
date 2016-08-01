@@ -31,4 +31,6 @@
 
 @interface SimpleController : CobaltViewController<CobaltDelegate>
 
+@property (strong, nonatomic) IBOutlet UITextField *textField;
+
 @end

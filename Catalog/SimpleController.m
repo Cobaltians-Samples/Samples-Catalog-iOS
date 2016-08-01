@@ -73,6 +73,18 @@
             dispatch_async(dispatch_get_main_queue(), ^{
                 self.navigationItem.title = title;
             });
+		}
+		
+		return YES;
+	}
+    else if ([event isEqualToString:@"emoji"]) {
+        if (data != nil
+            && [data isKindOfClass:[NSDictionary class]]) {
+            id value = [data objectForKey:@"value"];
+            if (value != nil
+                && [value isKindOfClass:[NSString class]]) {
+                NSLog(@"Received emoji: %@", value);
+            }
         }
         
         return YES;
@@ -84,6 +96,18 @@
 - (BOOL)onUnhandledCallback:(NSString *)callback withData:(NSDictionary *)data
 {
     return NO;
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+#pragma mark UI METHODS
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+- (IBAction)send:(id)sender {
+    [self sendEvent:@"emoji"
+           withData:_textField.text
+        andCallback:nil];
 }
 
 @end
