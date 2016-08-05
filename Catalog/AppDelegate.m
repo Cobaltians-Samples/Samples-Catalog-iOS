@@ -42,11 +42,11 @@
     self.window.backgroundColor = [UIColor clearColor];
     
     [Cobalt setResourcePath:RESOURCE_PATH];
-    CobaltViewController *viewController = [Cobalt cobaltViewControllerForController:kConfigurationControllerDefault
-                                                                             andPage:@"index.html"];
-    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:viewController];
-    self.window.rootViewController = navController;
     
+    CobaltViewController *viewController = [Cobalt cobaltViewControllerForController:@"nativeBars"
+                                                                             andPage:@"nativeBars.html"];
+    //UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    self.window.rootViewController = viewController;
     [self.window makeKeyAndVisible];
     
     return YES;
