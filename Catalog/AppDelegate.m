@@ -37,16 +37,30 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    // Window
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor clearColor];
     
+    // Default Theme
+    UIColor *tintColor = [UIColor colorWithRed:52.0 / 255.0
+                                         green:152.0 / 255.0
+                                          blue:219.0 / 255.0
+                                         alpha:1.0];
+    [UINavigationBar appearance].tintColor = tintColor;
+    NSMutableDictionary* titleTextAttributes = [NSMutableDictionary dictionaryWithDictionary:[UINavigationBar appearance].titleTextAttributes];
+    [titleTextAttributes setValue:tintColor
+                           forKey:NSForegroundColorAttributeName];
+    [UINavigationBar appearance].titleTextAttributes = titleTextAttributes;
+    
+    // Cobalt
     [Cobalt setResourcePath:RESOURCE_PATH];
+    
+    // Root
     CobaltViewController *viewController = [Cobalt cobaltViewControllerForController:kConfigurationControllerDefault
                                                                              andPage:@"index.html"];
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:viewController];
     self.window.rootViewController = navController;
-    
     [self.window makeKeyAndVisible];
     
     return YES;

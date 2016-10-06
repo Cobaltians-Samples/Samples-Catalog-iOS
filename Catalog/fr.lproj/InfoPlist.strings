@@ -1,2 +1,4 @@
 /* Localized versions of Info.plist keys */
 
+"NSContactsUsageDescription" = "Catalog nécessite l'accès à vos contacts afin d'importer un contact dans votre carnet d'adresses";
+"NSLocationWhenInUseUsageDescription" = "Catalog nécessite l'accès à votre localisation afin de vous montrer votre position sur la carte";
