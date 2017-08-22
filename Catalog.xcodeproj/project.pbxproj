@@ -84,7 +84,6 @@
 		F01A5A161716EF4C0000DD94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F01A5A141716EF4C0000DD94 /* InfoPlist.strings */; };
 		F01A5A181716EF4D0000DD94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F01A5A171716EF4D0000DD94 /* main.m */; };
 		F01A5A1C1716EF4D0000DD94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F01A5A1B1716EF4D0000DD94 /* AppDelegate.m */; };
-		F0FB6E4019B45EED00021401 /* platform in Resources */ = {isa = PBXBuildFile; fileRef = F0FB6E3F19B45EED00021401 /* platform */; };
 		F0FB6E4219B45EF600021401 /* common in Resources */ = {isa = PBXBuildFile; fileRef = F0FB6E4119B45EF600021401 /* common */; };
 /* End PBXBuildFile section */
 
@@ -228,7 +227,6 @@
 		F01A5A191716EF4D0000DD94 /* Catalog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Catalog-Prefix.pch"; sourceTree = "<group>"; };
 		F01A5A1A1716EF4D0000DD94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F01A5A1B1716EF4D0000DD94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F0FB6E3F19B45EED00021401 /* platform */ = {isa = PBXFileReference; lastKnownFileType = folder; name = platform; path = www/platform; sourceTree = "<group>"; };
 		F0FB6E4119B45EF600021401 /* common */ = {isa = PBXFileReference; lastKnownFileType = folder; name = common; path = www/common; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -371,7 +369,6 @@
 				6AAF551B1CD8DD47005C3123 /* BatteryStatusPlugin */,
 				6AAF55191CD8DD3A005C3123 /* NetworkStatusPlugin */,
 				F0FB6E4119B45EF600021401 /* common */,
-				F0FB6E3F19B45EED00021401 /* platform */,
 				BE1B27CB1BCE9FE2003C0C61 /* ActionPickerPlugin */,
 				BEDD8DA01BAC278600265616 /* AppInfosPlugin */,
 				BEA8677E1B74E8B70072F61C /* LocationPlugin */,
@@ -630,7 +627,6 @@
 				BEA867831B74E8B70072F61C /* WebServicesPlugin in Resources */,
 				C49597591717090B006454BA /* CallbacksController.xib in Resources */,
 				C4D664A3171E8D97009EDE58 /* EventsController.xib in Resources */,
-				F0FB6E4019B45EED00021401 /* platform in Resources */,
 				8E751EB019EEB62400EDFF4D /* moon@3x.png in Resources */,
 				BE7BE5491CA05CB400AADDEB /* FontAwesome.ttf in Resources */,
 				BEDD8DA11BAC278600265616 /* AppInfosPlugin in Resources */,
