@@ -18,10 +18,6 @@
 	path = Catalog/www/common
 	url = git://github.com/Cobaltians-Samples/Samples-Catalog-Web.git
 	branch = develop
-[submodule "Catalog/www/platform"]
-	path = Catalog/www/platform
-	url = git://github.com/cobaltians/Cobalt-Web-iOS.git
-	branch = develop
 [submodule "Catalog/www/PubSubPlugin"]
 	path = Catalog/www/PubSubPlugin
 	url = git://github.com/cobaltians-plugins/plugins-PubSub-Web.git
