@@ -55,6 +55,7 @@
 		BE1ABCF11B70F9C40070657C /* PubSubPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1ABCEE1B70F9C40070657C /* PubSubPlugin.m */; };
 		BE1ABCF21B70F9C40070657C /* PubSubReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1ABCF01B70F9C40070657C /* PubSubReceiver.m */; };
 		BE1B27CC1BCE9FE2003C0C61 /* ActionPickerPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BE1B27CB1BCE9FE2003C0C61 /* ActionPickerPlugin */; };
+		BE21AE4E1F8E14FA001380E3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE21AE4B1F8E14FA001380E3 /* WebKit.framework */; };
 		BE5D91501D6CA1E400E4B2C7 /* libCobalt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5D914B1D6CA18900E4B2C7 /* libCobalt.a */; };
 		BE5D91511D6CA1F700E4B2C7 /* Cobalt.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BE5D914D1D6CA18900E4B2C7 /* Cobalt.bundle */; };
 		BE7BE5471CA05CB400AADDEB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BE7BE5421CA05CB400AADDEB /* .gitignore */; };
@@ -190,6 +191,7 @@
 		BE1ABCF01B70F9C40070657C /* PubSubReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PubSubReceiver.m; path = PubSubPlugin/PubSubReceiver.m; sourceTree = "<group>"; };
 		BE1B27CB1BCE9FE2003C0C61 /* ActionPickerPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ActionPickerPlugin; path = www/ActionPickerPlugin; sourceTree = "<group>"; };
 		BE208FEF1BD4DB5C000D2B5F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE21AE4B1F8E14FA001380E3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		BE5D91441D6CA18900E4B2C7 /* Cobalt.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cobalt.xcodeproj; path = Cobalt/Cobalt.xcodeproj; sourceTree = "<group>"; };
 		BE7BE5421CA05CB400AADDEB /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		BE7BE5431CA05CB400AADDEB /* FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontAwesome.h; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE21AE4E1F8E14FA001380E3 /* WebKit.framework in Frameworks */,
 				542538FD1CEF2AE500190AF9 /* AddressBook.framework in Frameworks */,
 				BE956EBC1C47F653002DBEE3 /* CoreGraphics.framework in Frameworks */,
 				BEDE9EB61B7398DB00EAEB94 /* CoreLocation.framework in Frameworks */,
@@ -450,6 +453,7 @@
 		F01A5A0A1716EF4C0000DD94 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BE21AE4B1F8E14FA001380E3 /* WebKit.framework */,
 				542538FC1CEF2AE500190AF9 /* AddressBook.framework */,
 				BE956EBB1C47F653002DBEE3 /* CoreGraphics.framework */,
 				BEDE9EB51B7398DB00EAEB94 /* CoreLocation.framework */,
@@ -775,7 +779,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Catalog/Catalog-Prefix.pch";
 				INFOPLIST_FILE = "Catalog/Catalog-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "Cobalt Catalog";
 				PROVISIONING_PROFILE = "";
@@ -800,7 +804,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Catalog/Catalog-Prefix.pch";
 				INFOPLIST_FILE = "Catalog/Catalog-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "Cobalt Catalog";
 				PROVISIONING_PROFILE = "";
