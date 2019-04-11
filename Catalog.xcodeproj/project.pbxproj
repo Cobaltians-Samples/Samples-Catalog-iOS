@@ -8,29 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		540BD3D91CFDCDE200E0580A /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 540BD3D81CFDCDE200E0580A /* SafariServices.framework */; };
-		540BD3DF1CFDCF1400E0580A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 540BD3DB1CFDCF1400E0580A /* .gitignore */; };
 		540BD3E01CFDCF1400E0580A /* CobaltPdfPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 540BD3DD1CFDCF1400E0580A /* CobaltPdfPlugin.m */; };
-		540BD3E11CFDCF1400E0580A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 540BD3DE1CFDCF1400E0580A /* LICENSE */; };
 		542538FB1CEF2A7700190AF9 /* SharePlugin in Resources */ = {isa = PBXBuildFile; fileRef = 542538FA1CEF2A7700190AF9 /* SharePlugin */; };
 		542538FD1CEF2AE500190AF9 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542538FC1CEF2AE500190AF9 /* AddressBook.framework */; };
 		542538FF1CEF3AB800190AF9 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 542538FE1CEF3AB800190AF9 /* logo.png */; };
-		54EC75561CEF2910006E02DD /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 54EC75521CEF2910006E02DD /* .gitignore */; };
 		54EC75571CEF2910006E02DD /* CobaltSharePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC75541CEF2910006E02DD /* CobaltSharePlugin.m */; };
-		54EC75581CEF2910006E02DD /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 54EC75551CEF2910006E02DD /* LICENSE */; };
 		54EFED1A1CFDD2A30090648E /* PdfPlugin in Resources */ = {isa = PBXBuildFile; fileRef = 54EFED191CFDD2A30090648E /* PdfPlugin */; };
-		6AAF550A1CD8DD0C005C3123 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6AAF55041CD8DD0C005C3123 /* .gitignore */; };
 		6AAF550B1CD8DD0C005C3123 /* CobaltNetworkStatusPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAF55061CD8DD0C005C3123 /* CobaltNetworkStatusPlugin.m */; };
-		6AAF550C1CD8DD0C005C3123 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6AAF55071CD8DD0C005C3123 /* LICENSE */; };
 		6AAF550D1CD8DD0C005C3123 /* NetworkChangeReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAF55091CD8DD0C005C3123 /* NetworkChangeReceiver.m */; };
-		6AAF55151CD8DD19005C3123 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6AAF550F1CD8DD19005C3123 /* .gitignore */; };
 		6AAF55161CD8DD19005C3123 /* BatteryChangeReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAF55111CD8DD19005C3123 /* BatteryChangeReceiver.m */; };
 		6AAF55171CD8DD19005C3123 /* CobaltBatteryStatusPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAF55131CD8DD19005C3123 /* CobaltBatteryStatusPlugin.m */; };
-		6AAF55181CD8DD19005C3123 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6AAF55141CD8DD19005C3123 /* LICENSE */; };
 		6AAF551A1CD8DD3A005C3123 /* NetworkStatusPlugin in Resources */ = {isa = PBXBuildFile; fileRef = 6AAF55191CD8DD3A005C3123 /* NetworkStatusPlugin */; };
 		6AAF551C1CD8DD47005C3123 /* BatteryStatusPlugin in Resources */ = {isa = PBXBuildFile; fileRef = 6AAF551B1CD8DD47005C3123 /* BatteryStatusPlugin */; };
 		6AAF551E1CD8DE04005C3123 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AAF551D1CD8DE04005C3123 /* SystemConfiguration.framework */; };
 		8E1070BF1987ED8800DED934 /* CustomizedPulltoRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1070BE1987ED8800DED934 /* CustomizedPulltoRefreshViewController.m */; };
-		8E3C678919FF96D2007353AC /* PluginsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3C678819FF96D2007353AC /* PluginsController.m */; };
 		8E751EA819EEB62400EDFF4D /* black_sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E751E9919EEB62400EDFF4D /* black_sun.png */; };
 		8E751EA919EEB62400EDFF4D /* black_sun@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E751E9A19EEB62400EDFF4D /* black_sun@2x.png */; };
 		8E751EAA19EEB62400EDFF4D /* black_sun@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E751E9B19EEB62400EDFF4D /* black_sun@3x.png */; };
@@ -49,30 +40,20 @@
 		8EC5CAD71980FB00001777FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EC5CAD61980FB00001777FA /* Images.xcassets */; };
 		BE040DBF1DA685E70008A21E /* LocationListener.m in Sources */ = {isa = PBXBuildFile; fileRef = BE040DBE1DA685E70008A21E /* LocationListener.m */; };
 		BE1ABCE21B70F98B0070657C /* CobaltLocationPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1ABCE11B70F98B0070657C /* CobaltLocationPlugin.m */; };
-		BE1ABCE91B70F9AC0070657C /* CobaltWebservicesPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1ABCE41B70F9AC0070657C /* CobaltWebservicesPlugin.m */; };
-		BE1ABCEA1B70F9AC0070657C /* NSThread+withBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1ABCE61B70F9AC0070657C /* NSThread+withBlocks.m */; };
-		BE1ABCEB1B70F9AC0070657C /* WebServicesAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1ABCE81B70F9AC0070657C /* WebServicesAPI.m */; };
 		BE1ABCF11B70F9C40070657C /* PubSubPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1ABCEE1B70F9C40070657C /* PubSubPlugin.m */; };
 		BE1ABCF21B70F9C40070657C /* PubSubReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1ABCF01B70F9C40070657C /* PubSubReceiver.m */; };
 		BE1B27CC1BCE9FE2003C0C61 /* ActionPickerPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BE1B27CB1BCE9FE2003C0C61 /* ActionPickerPlugin */; };
 		BE5D91501D6CA1E400E4B2C7 /* libCobalt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5D914B1D6CA18900E4B2C7 /* libCobalt.a */; };
 		BE5D91511D6CA1F700E4B2C7 /* Cobalt.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BE5D914D1D6CA18900E4B2C7 /* Cobalt.bundle */; };
-		BE7BE5471CA05CB400AADDEB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BE7BE5421CA05CB400AADDEB /* .gitignore */; };
 		BE7BE5481CA05CB400AADDEB /* FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7BE5441CA05CB400AADDEB /* FontAwesome.m */; };
 		BE7BE5491CA05CB400AADDEB /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE7BE5451CA05CB400AADDEB /* FontAwesome.ttf */; };
-		BE7BE54A1CA05CB400AADDEB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE7BE5461CA05CB400AADDEB /* LICENSE */; };
 		BE956EBC1C47F653002DBEE3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE956EBB1C47F653002DBEE3 /* CoreGraphics.framework */; };
 		BE956EBE1C47F65F002DBEE3 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE956EBD1C47F65F002DBEE3 /* JavaScriptCore.framework */; };
 		BEA867811B74E8B70072F61C /* LocationPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BEA8677E1B74E8B70072F61C /* LocationPlugin */; };
 		BEA867821B74E8B70072F61C /* PubSubPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BEA8677F1B74E8B70072F61C /* PubSubPlugin */; };
-		BEA867831B74E8B70072F61C /* WebServicesPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BEA867801B74E8B70072F61C /* WebServicesPlugin */; };
-		BEDD518C1BCE993300E204AC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BEDD51881BCE993300E204AC /* .gitignore */; };
 		BEDD518D1BCE993300E204AC /* ActionPickerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDD518A1BCE993300E204AC /* ActionPickerPlugin.m */; };
-		BEDD518E1BCE993300E204AC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BEDD518B1BCE993300E204AC /* LICENSE */; };
 		BEDD8DA11BAC278600265616 /* AppInfosPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BEDD8DA01BAC278600265616 /* AppInfosPlugin */; };
-		BEDD8DA71BAC282C00265616 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BEDD8DA31BAC282C00265616 /* .gitignore */; };
 		BEDD8DA81BAC282C00265616 /* CobaltAppInfosPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDD8DA51BAC282C00265616 /* CobaltAppInfosPlugin.m */; };
-		BEDD8DA91BAC282C00265616 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BEDD8DA61BAC282C00265616 /* LICENSE */; };
 		BEDE9EB41B7398C700EAEB94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDE9EB31B7398C700EAEB94 /* UIKit.framework */; };
 		BEDE9EB61B7398DB00EAEB94 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDE9EB51B7398DB00EAEB94 /* CoreLocation.framework */; };
 		BEF814331CAD63FC004D512A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF814321CAD63FC004D512A /* LaunchScreen.storyboard */; };
@@ -155,8 +136,6 @@
 		6AAF551D1CD8DE04005C3123 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		8E1070BD1987ED8800DED934 /* CustomizedPulltoRefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomizedPulltoRefreshViewController.h; sourceTree = "<group>"; };
 		8E1070BE1987ED8800DED934 /* CustomizedPulltoRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomizedPulltoRefreshViewController.m; sourceTree = "<group>"; };
-		8E3C678719FF96D2007353AC /* PluginsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginsController.h; sourceTree = "<group>"; };
-		8E3C678819FF96D2007353AC /* PluginsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PluginsController.m; sourceTree = "<group>"; };
 		8E751E9919EEB62400EDFF4D /* black_sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black_sun.png; sourceTree = "<group>"; };
 		8E751E9A19EEB62400EDFF4D /* black_sun@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black_sun@2x.png"; sourceTree = "<group>"; };
 		8E751E9B19EEB62400EDFF4D /* black_sun@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black_sun@3x.png"; sourceTree = "<group>"; };
@@ -178,12 +157,6 @@
 		BE040DC11DA686EE0008A21E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE1ABCE01B70F98B0070657C /* CobaltLocationPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CobaltLocationPlugin.h; sourceTree = "<group>"; };
 		BE1ABCE11B70F98B0070657C /* CobaltLocationPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CobaltLocationPlugin.m; sourceTree = "<group>"; };
-		BE1ABCE31B70F9AC0070657C /* CobaltWebservicesPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CobaltWebservicesPlugin.h; path = WebServicesPlugin/CobaltWebservicesPlugin.h; sourceTree = SOURCE_ROOT; };
-		BE1ABCE41B70F9AC0070657C /* CobaltWebservicesPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CobaltWebservicesPlugin.m; path = WebServicesPlugin/CobaltWebservicesPlugin.m; sourceTree = SOURCE_ROOT; };
-		BE1ABCE51B70F9AC0070657C /* NSThread+withBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSThread+withBlocks.h"; path = "WebServicesPlugin/NSThread+withBlocks.h"; sourceTree = SOURCE_ROOT; };
-		BE1ABCE61B70F9AC0070657C /* NSThread+withBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSThread+withBlocks.m"; path = "WebServicesPlugin/NSThread+withBlocks.m"; sourceTree = SOURCE_ROOT; };
-		BE1ABCE71B70F9AC0070657C /* WebServicesAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebServicesAPI.h; path = WebServicesPlugin/WebServicesAPI.h; sourceTree = SOURCE_ROOT; };
-		BE1ABCE81B70F9AC0070657C /* WebServicesAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebServicesAPI.m; path = WebServicesPlugin/WebServicesAPI.m; sourceTree = SOURCE_ROOT; };
 		BE1ABCED1B70F9C40070657C /* PubSubPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PubSubPlugin.h; path = PubSubPlugin/PubSubPlugin.h; sourceTree = "<group>"; };
 		BE1ABCEE1B70F9C40070657C /* PubSubPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PubSubPlugin.m; path = PubSubPlugin/PubSubPlugin.m; sourceTree = "<group>"; };
 		BE1ABCEF1B70F9C40070657C /* PubSubReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PubSubReceiver.h; path = PubSubPlugin/PubSubReceiver.h; sourceTree = "<group>"; };
@@ -200,7 +173,6 @@
 		BE956EBD1C47F65F002DBEE3 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		BEA8677E1B74E8B70072F61C /* LocationPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = LocationPlugin; path = www/LocationPlugin; sourceTree = "<group>"; };
 		BEA8677F1B74E8B70072F61C /* PubSubPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PubSubPlugin; path = www/PubSubPlugin; sourceTree = "<group>"; };
-		BEA867801B74E8B70072F61C /* WebServicesPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WebServicesPlugin; path = www/WebServicesPlugin; sourceTree = "<group>"; };
 		BEDD51881BCE993300E204AC /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		BEDD51891BCE993300E204AC /* ActionPickerPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionPickerPlugin.h; sourceTree = "<group>"; };
 		BEDD518A1BCE993300E204AC /* ActionPickerPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionPickerPlugin.m; sourceTree = "<group>"; };
@@ -353,8 +325,6 @@
 				C4D6649F171E8D97009EDE58 /* EventsController.h */,
 				C4D664A0171E8D97009EDE58 /* EventsController.m */,
 				C4D664A1171E8D97009EDE58 /* EventsController.xib */,
-				8E3C678719FF96D2007353AC /* PluginsController.h */,
-				8E3C678819FF96D2007353AC /* PluginsController.m */,
 				C4D664A7171E91D5009EDE58 /* SimpleController.h */,
 				C4D664A8171E91D5009EDE58 /* SimpleController.m */,
 			);
@@ -373,7 +343,6 @@
 				BEDD8DA01BAC278600265616 /* AppInfosPlugin */,
 				BEA8677E1B74E8B70072F61C /* LocationPlugin */,
 				BEA8677F1B74E8B70072F61C /* PubSubPlugin */,
-				BEA867801B74E8B70072F61C /* WebServicesPlugin */,
 			);
 			name = assets;
 			sourceTree = "<group>";
@@ -467,7 +436,6 @@
 				540BD3DA1CFDCF1400E0580A /* PdfPlugin */,
 				BE1ABCEC1B70F9B50070657C /* PubSubPlugin */,
 				54EC75511CEF2910006E02DD /* SharePlugin */,
-				F0AF225B1AFD639400B58B07 /* WebServicesPlugin */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -495,20 +463,6 @@
 				F01A5A171716EF4D0000DD94 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		F0AF225B1AFD639400B58B07 /* WebServicesPlugin */ = {
-			isa = PBXGroup;
-			children = (
-				BE1ABCE31B70F9AC0070657C /* CobaltWebservicesPlugin.h */,
-				BE1ABCE41B70F9AC0070657C /* CobaltWebservicesPlugin.m */,
-				BE1ABCE51B70F9AC0070657C /* NSThread+withBlocks.h */,
-				BE1ABCE61B70F9AC0070657C /* NSThread+withBlocks.m */,
-				BE1ABCE71B70F9AC0070657C /* WebServicesAPI.h */,
-				BE1ABCE81B70F9AC0070657C /* WebServicesAPI.m */,
-			);
-			name = WebServicesPlugin;
-			path = CobaltPlugins/CobaltWebservicesPlugin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -553,6 +507,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				fr,
 			);
@@ -594,49 +549,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54EC75581CEF2910006E02DD /* LICENSE in Resources */,
 				6AAF551A1CD8DD3A005C3123 /* NetworkStatusPlugin in Resources */,
-				BE7BE5471CA05CB400AADDEB /* .gitignore in Resources */,
 				8E751EB619EEB62400EDFF4D /* wind@3x.png in Resources */,
-				BEDD518C1BCE993300E204AC /* .gitignore in Resources */,
 				8E751EAF19EEB62400EDFF4D /* moon@2x.png in Resources */,
 				8E751EB419EEB62400EDFF4D /* wind.png in Resources */,
 				8E751EB319EEB62400EDFF4D /* sun@3x.png in Resources */,
 				8E751EAB19EEB62400EDFF4D /* cloudy.png in Resources */,
 				F01A5A161716EF4C0000DD94 /* InfoPlist.strings in Resources */,
-				6AAF550C1CD8DD0C005C3123 /* LICENSE in Resources */,
 				542538FF1CEF3AB800190AF9 /* logo.png in Resources */,
-				BE7BE54A1CA05CB400AADDEB /* LICENSE in Resources */,
 				8E751EAD19EEB62400EDFF4D /* cloudy@3x.png in Resources */,
 				542538FB1CEF2A7700190AF9 /* SharePlugin in Resources */,
-				BEDD8DA71BAC282C00265616 /* .gitignore in Resources */,
 				BE1B27CC1BCE9FE2003C0C61 /* ActionPickerPlugin in Resources */,
 				8E751EAA19EEB62400EDFF4D /* black_sun@3x.png in Resources */,
 				54EFED1A1CFDD2A30090648E /* PdfPlugin in Resources */,
 				8E751EB119EEB62400EDFF4D /* sun.png in Resources */,
-				6AAF55181CD8DD19005C3123 /* LICENSE in Resources */,
-				BEDD8DA91BAC282C00265616 /* LICENSE in Resources */,
 				8EC5CAD71980FB00001777FA /* Images.xcassets in Resources */,
-				6AAF550A1CD8DD0C005C3123 /* .gitignore in Resources */,
 				8E751EB519EEB62400EDFF4D /* wind@2x.png in Resources */,
 				8E751EAC19EEB62400EDFF4D /* cloudy@2x.png in Resources */,
-				54EC75561CEF2910006E02DD /* .gitignore in Resources */,
 				BEF814331CAD63FC004D512A /* LaunchScreen.storyboard in Resources */,
 				BEA867821B74E8B70072F61C /* PubSubPlugin in Resources */,
 				6AAF551C1CD8DD47005C3123 /* BatteryStatusPlugin in Resources */,
-				BEA867831B74E8B70072F61C /* WebServicesPlugin in Resources */,
 				C49597591717090B006454BA /* CallbacksController.xib in Resources */,
 				C4D664A3171E8D97009EDE58 /* EventsController.xib in Resources */,
 				8E751EB019EEB62400EDFF4D /* moon@3x.png in Resources */,
 				BE7BE5491CA05CB400AADDEB /* FontAwesome.ttf in Resources */,
 				BEDD8DA11BAC278600265616 /* AppInfosPlugin in Resources */,
 				8E751EB219EEB62400EDFF4D /* sun@2x.png in Resources */,
-				6AAF55151CD8DD19005C3123 /* .gitignore in Resources */,
-				BEDD518E1BCE993300E204AC /* LICENSE in Resources */,
 				BEA867811B74E8B70072F61C /* LocationPlugin in Resources */,
 				8E751EAE19EEB62400EDFF4D /* moon.png in Resources */,
-				540BD3E11CFDCF1400E0580A /* LICENSE in Resources */,
-				540BD3DF1CFDCF1400E0580A /* .gitignore in Resources */,
 				8E751EA819EEB62400EDFF4D /* black_sun.png in Resources */,
 				F0FB6E4219B45EF600021401 /* common in Resources */,
 				8E751EA919EEB62400EDFF4D /* black_sun@2x.png in Resources */,
@@ -653,12 +593,8 @@
 			files = (
 				540BD3E01CFDCF1400E0580A /* CobaltPdfPlugin.m in Sources */,
 				BE7BE5481CA05CB400AADDEB /* FontAwesome.m in Sources */,
-				BE1ABCEA1B70F9AC0070657C /* NSThread+withBlocks.m in Sources */,
-				8E3C678919FF96D2007353AC /* PluginsController.m in Sources */,
-				BE1ABCE91B70F9AC0070657C /* CobaltWebservicesPlugin.m in Sources */,
 				6AAF55161CD8DD19005C3123 /* BatteryChangeReceiver.m in Sources */,
 				BEDD518D1BCE993300E204AC /* ActionPickerPlugin.m in Sources */,
-				BE1ABCEB1B70F9AC0070657C /* WebServicesAPI.m in Sources */,
 				F01A5A181716EF4D0000DD94 /* main.m in Sources */,
 				BEDD8DA81BAC282C00265616 /* CobaltAppInfosPlugin.m in Sources */,
 				F01A5A1C1716EF4D0000DD94 /* AppDelegate.m in Sources */,
@@ -775,7 +711,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Catalog/Catalog-Prefix.pch";
 				INFOPLIST_FILE = "Catalog/Catalog-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "Cobalt Catalog";
 				PROVISIONING_PROFILE = "";
@@ -800,7 +736,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Catalog/Catalog-Prefix.pch";
 				INFOPLIST_FILE = "Catalog/Catalog-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "Cobalt Catalog";
 				PROVISIONING_PROFILE = "";
