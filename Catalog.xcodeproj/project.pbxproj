@@ -40,8 +40,6 @@
 		8EC5CAD71980FB00001777FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EC5CAD61980FB00001777FA /* Images.xcassets */; };
 		BE040DBF1DA685E70008A21E /* LocationListener.m in Sources */ = {isa = PBXBuildFile; fileRef = BE040DBE1DA685E70008A21E /* LocationListener.m */; };
 		BE1ABCE21B70F98B0070657C /* CobaltLocationPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1ABCE11B70F98B0070657C /* CobaltLocationPlugin.m */; };
-		BE1ABCF11B70F9C40070657C /* PubSubPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1ABCEE1B70F9C40070657C /* PubSubPlugin.m */; };
-		BE1ABCF21B70F9C40070657C /* PubSubReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1ABCF01B70F9C40070657C /* PubSubReceiver.m */; };
 		BE1B27CC1BCE9FE2003C0C61 /* ActionPickerPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BE1B27CB1BCE9FE2003C0C61 /* ActionPickerPlugin */; };
 		BE5D91501D6CA1E400E4B2C7 /* libCobalt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5D914B1D6CA18900E4B2C7 /* libCobalt.a */; };
 		BE5D91511D6CA1F700E4B2C7 /* Cobalt.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BE5D914D1D6CA18900E4B2C7 /* Cobalt.bundle */; };
@@ -157,10 +155,6 @@
 		BE040DC11DA686EE0008A21E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE1ABCE01B70F98B0070657C /* CobaltLocationPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CobaltLocationPlugin.h; sourceTree = "<group>"; };
 		BE1ABCE11B70F98B0070657C /* CobaltLocationPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CobaltLocationPlugin.m; sourceTree = "<group>"; };
-		BE1ABCED1B70F9C40070657C /* PubSubPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PubSubPlugin.h; path = PubSubPlugin/PubSubPlugin.h; sourceTree = "<group>"; };
-		BE1ABCEE1B70F9C40070657C /* PubSubPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PubSubPlugin.m; path = PubSubPlugin/PubSubPlugin.m; sourceTree = "<group>"; };
-		BE1ABCEF1B70F9C40070657C /* PubSubReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PubSubReceiver.h; path = PubSubPlugin/PubSubReceiver.h; sourceTree = "<group>"; };
-		BE1ABCF01B70F9C40070657C /* PubSubReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PubSubReceiver.m; path = PubSubPlugin/PubSubReceiver.m; sourceTree = "<group>"; };
 		BE1B27CB1BCE9FE2003C0C61 /* ActionPickerPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ActionPickerPlugin; path = www/ActionPickerPlugin; sourceTree = "<group>"; };
 		BE208FEF1BD4DB5C000D2B5F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE5D91441D6CA18900E4B2C7 /* Cobalt.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cobalt.xcodeproj; path = Cobalt/Cobalt.xcodeproj; sourceTree = "<group>"; };
@@ -303,17 +297,6 @@
 			path = LocationPlugin;
 			sourceTree = "<group>";
 		};
-		BE1ABCEC1B70F9B50070657C /* PubSubPlugin */ = {
-			isa = PBXGroup;
-			children = (
-				BE1ABCED1B70F9C40070657C /* PubSubPlugin.h */,
-				BE1ABCEE1B70F9C40070657C /* PubSubPlugin.m */,
-				BE1ABCEF1B70F9C40070657C /* PubSubReceiver.h */,
-				BE1ABCF01B70F9C40070657C /* PubSubReceiver.m */,
-			);
-			name = PubSubPlugin;
-			sourceTree = "<group>";
-		};
 		BE3DEED01AC19B2400EF45ED /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -434,7 +417,6 @@
 				BE1ABCD81B70F9730070657C /* LocationPlugin */,
 				6AAF55031CD8DD0C005C3123 /* NetworkStatusPlugin */,
 				540BD3DA1CFDCF1400E0580A /* PdfPlugin */,
-				BE1ABCEC1B70F9B50070657C /* PubSubPlugin */,
 				54EC75511CEF2910006E02DD /* SharePlugin */,
 			);
 			name = Frameworks;
@@ -600,14 +582,12 @@
 				F01A5A1C1716EF4D0000DD94 /* AppDelegate.m in Sources */,
 				6AAF550B1CD8DD0C005C3123 /* CobaltNetworkStatusPlugin.m in Sources */,
 				BE1ABCE21B70F98B0070657C /* CobaltLocationPlugin.m in Sources */,
-				BE1ABCF21B70F9C40070657C /* PubSubReceiver.m in Sources */,
 				6AAF55171CD8DD19005C3123 /* CobaltBatteryStatusPlugin.m in Sources */,
 				8E1070BF1987ED8800DED934 /* CustomizedPulltoRefreshViewController.m in Sources */,
 				6AAF550D1CD8DD0C005C3123 /* NetworkChangeReceiver.m in Sources */,
 				C49597581717090B006454BA /* CallbacksController.m in Sources */,
 				BE040DBF1DA685E70008A21E /* LocationListener.m in Sources */,
 				C4D664A2171E8D97009EDE58 /* EventsController.m in Sources */,
-				BE1ABCF11B70F9C40070657C /* PubSubPlugin.m in Sources */,
 				54EC75571CEF2910006E02DD /* CobaltSharePlugin.m in Sources */,
 				C4D664AA171E91D5009EDE58 /* SimpleController.m in Sources */,
 			);

@@ -6,10 +6,6 @@
 	path = LocationPlugin
 	url = git://github.com/Cobaltians-Plugins/Plugins-Location-iOS.git
 	branch = develop
-[submodule "PubSubPlugin"]
-	path = PubSubPlugin
-	url = git://github.com/Cobaltians-Plugins/Plugins-PubSub-iOS.git
-	branch = develop
 [submodule "Catalog/www/common"]
 	path = Catalog/www/common
 	url = git://github.com/Cobaltians-Samples/Samples-Catalog-Web.git
