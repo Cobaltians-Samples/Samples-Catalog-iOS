@@ -52,6 +52,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
     [self setDelegate:self];
     //[self.navigationController setNavigationBarHidden:YES];
 
@@ -64,6 +65,22 @@
     [self setZoomLevelInWebView];
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    [[PubSub sharedInstance] subscribeDelegate:self
+                                     toChannel:hello];
+}
+
+- (void)viewDidDisappear:(BOOL)animated
+{
+    [super viewDidDisappear:animated];
+    
+    [[PubSub sharedInstance] unsubscribeDelegate:self
+                                     fromChannel:hello];
+}
+
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
 #pragma mark COBALT DELEGATE METHODS
@@ -72,20 +89,25 @@
 
 - (BOOL)onUnhandledEvent:(NSString *)event withData:(NSDictionary *)data andCallback:(NSString *)callback
 {
-    NSLog(@"avant le if");
-    if ([event isEqualToString:hello]) {
-        NSLog(@"dans le if");
-        UIAlertView * alertView = [[UIAlertView alloc] initWithTitle:@"hello" message:@"hello world" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-        [alertView performSelectorOnMainThread:@selector(show) withObject:nil waitUntilDone:YES];
-        return YES;
-    }
-    
     return NO;
 }
 
 - (BOOL)onUnhandledCallback:(NSString *)callback withData:(NSDictionary *)data
 {
     return NO;
+}
+
+- (void)didReceiveMessage:(nullable NSDictionary *)message
+                onChannel:(nonnull NSString *)channel {
+    if ([channel isEqualToString:hello]) {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [[[UIAlertView alloc] initWithTitle:@"hello"
+                                        message:@"hello world"
+                                       delegate:nil
+                              cancelButtonTitle:@"OK"
+                              otherButtonTitles:nil] show];
+        });
+    }
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
@@ -129,7 +151,8 @@
 
 - (void)setZoomLevelInWebView
 {
-    [self sendEvent:setZoom withData:[NSDictionary dictionaryWithObjectsAndKeys:textSizeCurrentZoomLevel, kJSValue, nil] andCallback:nil];
+    [[PubSub sharedInstance] publishMessage:@{kJSValue: textSizeCurrentZoomLevel}
+                                  toChannel:setZoom];
 }
 
 
