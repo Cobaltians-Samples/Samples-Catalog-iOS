@@ -29,10 +29,12 @@
 
 #import "CallbacksController.h"
 
-#define addValues           @"addValues"
-#define addValuesCallback   @"addValuesCallback"
-#define echo                @"echo"
-#define echoCallback        @"echoCallback"
+#define doSomeMathsFromNative           @"doSomeMathsFromNative"
+#define doSomeMathsFromNativeResponse   @"doSomeMathsFromNativeResponse"
+#define doSomeMathsFromWeb              @"doSomeMathsFromWeb"
+#define autoTestsFromNative             @"autoTestsFromNative"
+#define autoTestsFromNativeCallback     @"autoTestsFromNativeCallback"
+#define autoTestsFromWeb                @"autoTestsFromWeb"
 
 @implementation CallbacksController
 @synthesize dataAuto;
@@ -64,13 +66,13 @@ int i = 0;
     
     PubSub *pubsub = [PubSub sharedInstance];
     [pubsub subscribeDelegate:self
-                    toChannel:addValues];
+                    toChannel:doSomeMathsFromWeb];
     [pubsub subscribeDelegate:self
-                    toChannel:addValuesCallback];
+                    toChannel:doSomeMathsFromNativeResponse];
     [pubsub subscribeDelegate:self
-                    toChannel:echo];
+                    toChannel:autoTestsFromWeb];
     [pubsub subscribeDelegate:self
-                    toChannel:echoCallback];
+                    toChannel:autoTestsFromNativeCallback];
 }
 
 - (void)viewDidDisappear:(BOOL)animated {
@@ -78,13 +80,13 @@ int i = 0;
     
     PubSub *pubsub = [PubSub sharedInstance];
     [pubsub unsubscribeDelegate:self
-                    fromChannel:addValues];
+                    fromChannel:doSomeMathsFromWeb];
     [pubsub unsubscribeDelegate:self
-                    fromChannel:addValuesCallback];
+                    fromChannel:doSomeMathsFromNativeResponse];
     [pubsub unsubscribeDelegate:self
-                    fromChannel:echo];
+                    fromChannel:autoTestsFromWeb];
     [pubsub unsubscribeDelegate:self
-                    fromChannel:echoCallback];
+                    fromChannel:autoTestsFromNativeCallback];
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
@@ -93,76 +95,25 @@ int i = 0;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
-- (BOOL)onUnhandledEvent:(NSString *)event withData:(NSDictionary *)data andCallback:(NSString *)callback
-{
-    if ([event isEqualToString:addValues]) {
-        NSInteger intValue = [[[data objectForKey:kJSValues] objectAtIndex:0] intValue];
-        intValue += [[[data objectForKey:kJSValues] objectAtIndex:1] intValue];
-        NSString * value =[NSString stringWithFormat:@"%li",(long)intValue];
-        NSDictionary * result = [[NSDictionary alloc] initWithObjectsAndKeys:  value, @"result", nil];
-        [self sendCallback:callback withData:result];
-        
-        return YES;
-    }else if ([event isEqualToString:echo]) {
-            [self sendCallback:callback withData:data];
-        return YES;
-    }  
-    if ([event isEqualToString:@"testEmoji"]) {
-        NSString * emojiString = [data objectForKey:@"str"];
-        NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-        [defaults setObject:emojiString forKey:@"emoji"];
-        [defaults synchronize];
-        NSString * emojiStringSend = [defaults objectForKey:@"emoji"];
-        NSDictionary *emojiDictionary = @{@"result" : emojiStringSend};
-        [self sendCallback:callback withData:emojiDictionary];
-        return YES;
-    }
-    return NO;
-}
-
-/*
-- (BOOL)onUnhandledCallback:(NSString *)callback withData:(NSDictionary *)data
-{
-    if ([callback isEqualToString:addValues]) {
-        NSString * value = [NSString stringWithFormat:@"result is : %@",[data objectForKey:kJSResult]];
-        
-        UIAlertView * alertView = [[UIAlertView alloc] initWithTitle:@"Result" message:value delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-        [alertView show];
-        
-        return YES;
-    }else if ([callback isEqualToString:echo]) {
-        bool allEquals = true;
-        NSLog(@"iOS Native : %@ vs %@",data ,[dataAuto objectAtIndex:i]);
-        if (![[dataAuto objectAtIndex:i] isEqualToString:[NSString stringWithFormat:@"%@",data]]) {
-            allEquals = false;
-            NSLog(@"iOS Native : Error");
-        }else{
-            NSLog(@"iOS Native : Success");
-        }
-        i++;
-        if (i>=[dataAuto count])
-        {
-            i=0;
-            if (allEquals) {
-                UIAlertView * alertView = [[UIAlertView alloc] initWithTitle:@"Success" message:@"All test passed ! No error" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-                [alertView show];
-            }else if (!allEquals){
-                UIAlertView * alertView = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Some tests failed !s check logs." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-                [alertView show];
-            }
-        }else{
-            [self AutoTest:nil];
-        }
-        return YES;
-    }
-    
-    return NO;
-}
-*/
-
 - (void)didReceiveMessage:(nullable NSDictionary *)message
                 onChannel:(nonnull NSString *)channel {
-    if ([channel isEqualToString:addValues]) {
+    if ([channel isEqualToString:doSomeMathsFromNativeResponse]) {
+        if (message != nil) {
+            NSNumber *result = message[kJSResult];
+            if (result != nil
+                && [result isKindOfClass:[NSNumber class]]) {
+                NSString *value = [NSString stringWithFormat:@"result is : %@", result];
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    [[[UIAlertView alloc] initWithTitle:@"Result"
+                                                message:value
+                                               delegate:nil
+                                      cancelButtonTitle:@"OK"
+                                      otherButtonTitles:nil] show];
+                });
+            }
+        }
+    }
+    else if ([channel isEqualToString:doSomeMathsFromWeb]) {
         if (message != nil) {
             NSArray *values = message[kJSValues];
             NSString *callback = message[kJSCallback];
@@ -182,44 +133,7 @@ int i = 0;
             }
         }
     }
-    else if ([channel isEqualToString:echo]) {
-        if (message != nil) {
-            NSString *callback = message[kJSCallback];
-            if (callback != nil
-                && [callback isKindOfClass:[NSString class]]) {
-                [[PubSub sharedInstance] publishMessage:message
-                                              toChannel:callback];
-            }
-        }
-    }
-    /*
-    else if ([channel isEqualToString:@"testEmoji"]) {
-        NSString * emojiString = [data objectForKey:@"str"];
-        NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-        [defaults setObject:emojiString forKey:@"emoji"];
-        [defaults synchronize];
-        NSString * emojiStringSend = [defaults objectForKey:@"emoji"];
-        NSDictionary *emojiDictionary = @{@"result" : emojiStringSend};
-        [self sendCallback:callback withData:emojiDictionary];
-    }
-    */
-    else if ([channel isEqualToString:addValuesCallback]) {
-        if (message != nil) {
-            NSNumber *result = message[kJSResult];
-            if (result != nil
-                && [result isKindOfClass:[NSNumber class]]) {
-                NSString *value = [NSString stringWithFormat:@"result is : %@", result];
-                dispatch_async(dispatch_get_main_queue(), ^{
-                    [[[UIAlertView alloc] initWithTitle:@"Result"
-                                                message:value
-                                               delegate:nil
-                                      cancelButtonTitle:@"OK"
-                                      otherButtonTitles:nil] show];
-                });
-            }
-        }
-    }
-    else if ([channel isEqualToString:echoCallback]) {
+    else if ([channel isEqualToString:autoTestsFromNativeCallback]) {
         if (message != nil) {
             NSString *messageData = message[kJSData];
             if (messageData != nil
@@ -261,6 +175,16 @@ int i = 0;
             }
         }
     }
+    else if ([channel isEqualToString:autoTestsFromWeb]) {
+        if (message != nil) {
+            NSString *callback = message[kJSCallback];
+            if (callback != nil
+                && [callback isKindOfClass:[NSString class]]) {
+                [[PubSub sharedInstance] publishMessage:message
+                                              toChannel:callback];
+            }
+        }
+    }
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
@@ -271,8 +195,8 @@ int i = 0;
 
 - (IBAction)DoSomeMaths:(id)sender {
     [[PubSub sharedInstance] publishMessage:@{kJSValues: @[@1, @3],
-                                              kJSCallback:addValuesCallback}
-                                  toChannel:addValues];
+                                              kJSCallback:doSomeMathsFromNativeResponse}
+                                  toChannel:doSomeMathsFromNative];
 }
     
 - (IBAction)AutoTest:(id)sender {
@@ -281,8 +205,8 @@ int i = 0;
     NSLog(@"iOS Native : %@", data);
     if (data != nil) {
         [[PubSub sharedInstance] publishMessage:@{kJSData: data,
-                                                  kJSCallback:echoCallback}
-                                      toChannel:echo];
+                                                  kJSCallback:autoTestsFromNativeCallback}
+                                      toChannel:autoTestsFromNative];
     }
 }
 
