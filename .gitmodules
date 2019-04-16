@@ -1,39 +1,30 @@
 [submodule "Cobalt"]
 	path = Cobalt
 	url = git://github.com/cobaltians/Cobalt-iOS.git
-	branch = develop
 [submodule "LocationPlugin"]
 	path = LocationPlugin
 	url = git://github.com/Cobaltians-Plugins/Plugins-Location-iOS.git
-	branch = develop
 [submodule "Catalog/www/common"]
 	path = Catalog/www/common
 	url = git://github.com/Cobaltians-Samples/Samples-Catalog-Web.git
-	branch = develop
 [submodule "AppInfosPlugin"]
 	path = AppInfosPlugin
 	url = git://github.com/Cobaltians-Plugins/Plugins-AppInfos-iOS.git
-	branch = develop
 [submodule "ActionPickerPlugin"]
 	path = ActionPickerPlugin
 	url = git://github.com/Cobaltians-Plugins/Plugins-ActionPicker-iOS.git
-	branch = develop
 [submodule "Fonts-FontAwesome-iOS"]
 	path = Fonts-FontAwesome-iOS
 	url = git://github.com/Cobaltians-Fonts/Fonts-FontAwesome-iOS.git
-	branch = develop
 [submodule "NetworkStatusPlugin"]
 	path = NetworkStatusPlugin
 	url = git://github.com/Cobaltians-Plugins/Plugins-NetworkStatus-iOS.git
 [submodule "BatteryStatusPlugin"]
 	path = BatteryStatusPlugin
 	url = git://github.com/Cobaltians-Plugins/Plugins-BatteryStatus-iOS.git
-	branch = develop
 [submodule "SharePlugin"]
 	path = SharePlugin
 	url = https://github.com/Cobaltians-Plugins/Plugins-Share-iOS.git
-	branch = develop
 [submodule "PdfPlugin"]
 	path = PdfPlugin
 	url = git://github.com/Cobaltians-Plugins/Plugins-Pdf-iOS.git
-	branch = develop
