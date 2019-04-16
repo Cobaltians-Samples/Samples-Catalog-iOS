@@ -28,3 +28,7 @@
 [submodule "PdfPlugin"]
 	path = PdfPlugin
 	url = git://github.com/Cobaltians-Plugins/Plugins-Pdf-iOS.git
+[submodule "Catalog/www"]
+	path = Catalog/www
+	url = git@github.com:Cobaltians-Samples/Samples-Catalog-Web.git
+	branch = cobalt1.0

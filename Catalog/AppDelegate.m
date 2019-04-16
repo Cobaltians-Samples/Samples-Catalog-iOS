@@ -54,7 +54,7 @@
     [UINavigationBar appearance].titleTextAttributes = titleTextAttributes;
     
     // Cobalt
-    [Cobalt setResourcePath:RESOURCE_PATH];
+    // [Cobalt setResourcePath:RESOURCE_PATH];
     
     // Root
     CobaltViewController *viewController = [Cobalt cobaltViewControllerForController:kConfigurationControllerDefault
