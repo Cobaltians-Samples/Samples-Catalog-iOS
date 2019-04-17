@@ -4,9 +4,6 @@
 [submodule "LocationPlugin"]
 	path = LocationPlugin
 	url = git://github.com/Cobaltians-Plugins/Plugins-Location-iOS.git
-[submodule "Catalog/www/common"]
-	path = Catalog/www/common
-	url = git://github.com/Cobaltians-Samples/Samples-Catalog-Web.git
 [submodule "AppInfosPlugin"]
 	path = AppInfosPlugin
 	url = git://github.com/Cobaltians-Plugins/Plugins-AppInfos-iOS.git
