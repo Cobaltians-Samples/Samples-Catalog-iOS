@@ -32,7 +32,7 @@
 #import <Cobalt/CobaltViewController.h>
 #import <Cobalt/PubSub.h>
 
-@interface CallbacksController : SimpleController <CobaltDelegate, PubSubDelegate>
+@interface CallbacksController : SimpleController <PubSubDelegate>
 
 @property (nonatomic,retain) NSArray* dataAuto;
 - (IBAction)DoSomeMaths:(id)sender;

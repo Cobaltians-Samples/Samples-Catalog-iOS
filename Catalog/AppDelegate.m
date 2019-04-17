@@ -57,7 +57,7 @@
     // [Cobalt setResourcePath:RESOURCE_PATH];
     
     // Root
-    CobaltViewController *viewController = [Cobalt cobaltViewControllerForController:kConfigurationControllerDefault
+    CobaltViewController *viewController = [Cobalt cobaltViewControllerForController:@"index"
                                                                              andPage:@"index.html"];
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:viewController];
     self.window.rootViewController = navController;

@@ -51,7 +51,7 @@
 		C49597591717090B006454BA /* CallbacksController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C49597571717090B006454BA /* CallbacksController.xib */; };
 		C4D664A2171E8D97009EDE58 /* EventsController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D664A0171E8D97009EDE58 /* EventsController.m */; };
 		C4D664A3171E8D97009EDE58 /* EventsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4D664A1171E8D97009EDE58 /* EventsController.xib */; };
-		C4D664AA171E91D5009EDE58 /* SimpleController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D664A8171E91D5009EDE58 /* SimpleController.m */; };
+		C4D664AA171E91D5009EDE58 /* DefaultController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D664A8171E91D5009EDE58 /* DefaultController.m */; };
 		F01A5A161716EF4C0000DD94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F01A5A141716EF4C0000DD94 /* InfoPlist.strings */; };
 		F01A5A181716EF4D0000DD94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F01A5A171716EF4D0000DD94 /* main.m */; };
 		F01A5A1C1716EF4D0000DD94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F01A5A1B1716EF4D0000DD94 /* AppDelegate.m */; };
@@ -169,8 +169,8 @@
 		C4D6649F171E8D97009EDE58 /* EventsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsController.h; sourceTree = "<group>"; };
 		C4D664A0171E8D97009EDE58 /* EventsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsController.m; sourceTree = "<group>"; };
 		C4D664A1171E8D97009EDE58 /* EventsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventsController.xib; sourceTree = "<group>"; };
-		C4D664A7171E91D5009EDE58 /* SimpleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleController.h; sourceTree = "<group>"; };
-		C4D664A8171E91D5009EDE58 /* SimpleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleController.m; sourceTree = "<group>"; };
+		C4D664A7171E91D5009EDE58 /* DefaultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultController.h; sourceTree = "<group>"; };
+		C4D664A8171E91D5009EDE58 /* DefaultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultController.m; sourceTree = "<group>"; };
 		F01A5A081716EF4C0000DD94 /* Cobalt Catalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cobalt Catalog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01A5A131716EF4C0000DD94 /* Catalog-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Catalog-Info.plist"; sourceTree = "<group>"; };
 		F01A5A171716EF4D0000DD94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -292,8 +292,8 @@
 				C4D6649F171E8D97009EDE58 /* EventsController.h */,
 				C4D664A0171E8D97009EDE58 /* EventsController.m */,
 				C4D664A1171E8D97009EDE58 /* EventsController.xib */,
-				C4D664A7171E91D5009EDE58 /* SimpleController.h */,
-				C4D664A8171E91D5009EDE58 /* SimpleController.m */,
+				C4D664A7171E91D5009EDE58 /* DefaultController.h */,
+				C4D664A8171E91D5009EDE58 /* DefaultController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -549,7 +549,7 @@
 				BE040DBF1DA685E70008A21E /* LocationListener.m in Sources */,
 				C4D664A2171E8D97009EDE58 /* EventsController.m in Sources */,
 				54EC75571CEF2910006E02DD /* CobaltSharePlugin.m in Sources */,
-				C4D664AA171E91D5009EDE58 /* SimpleController.m in Sources */,
+				C4D664AA171E91D5009EDE58 /* DefaultController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

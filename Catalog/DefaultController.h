@@ -1,6 +1,6 @@
 /**
  *
- * SimpleController.m
+ * DefaultController.h
  * Cobalt Catalog
  *
  * The MIT License (MIT)
@@ -27,43 +27,8 @@
  *
  */
 
-#import "SimpleController.h"
+#import <Cobalt/CobaltViewController.h>
 
-@implementation SimpleController
-
-////////////////////////////////////////////////////////////////////////////////////////////////
-
-#pragma mark LIFE CYCLE
-
-////////////////////////////////////////////////////////////////////////////////////////////////
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    
-    // Do any additional setup after loading the view from its nib.
-    [self setDelegate:self];
-}
-
-////////////////////////////////////////////////////////////////////////////////////////////////
-
-#pragma mark COBALT DELEGATE METHODS
-
-////////////////////////////////////////////////////////////////////////////////////////////////
-
-- (BOOL)onUnhandledMessage:(NSDictionary *)message
-{
-    return NO;
-}
-
-- (BOOL)onUnhandledEvent:(NSString *)event withData:(NSDictionary *)data andCallback:(NSString *)callback
-{
-    return NO;
-}
-
-- (BOOL)onUnhandledCallback:(NSString *)callback withData:(NSDictionary *)data
-{
-    return NO;
-}
+@interface DefaultController : CobaltViewController
 
 @end

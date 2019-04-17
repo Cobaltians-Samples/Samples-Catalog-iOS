@@ -51,7 +51,6 @@ int i = 0;
     [super viewDidLoad];
     
     // Do any additional setup after loading the view from its nib.
-    [self setDelegate:self];
     //[self.navigationController setNavigationBarHidden:YES];
     
     dataAuto = @[@"quotes : it's working \"great\"",

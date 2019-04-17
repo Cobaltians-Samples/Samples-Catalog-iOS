@@ -51,9 +51,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
     
-    [self setDelegate:self];
+    // Do any additional setup after loading the view from its nib.
     //[self.navigationController setNavigationBarHidden:YES];
 
     textSizeMaxZoomLevel = [NSNumber numberWithInt:20];
@@ -83,19 +82,9 @@
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
-#pragma mark COBALT DELEGATE METHODS
+#pragma mark PUBSUB DELEGATE METHODS
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
-
-- (BOOL)onUnhandledEvent:(NSString *)event withData:(NSDictionary *)data andCallback:(NSString *)callback
-{
-    return NO;
-}
-
-- (BOOL)onUnhandledCallback:(NSString *)callback withData:(NSDictionary *)data
-{
-    return NO;
-}
 
 - (void)didReceiveMessage:(nullable NSDictionary *)message
                 onChannel:(nonnull NSString *)channel {

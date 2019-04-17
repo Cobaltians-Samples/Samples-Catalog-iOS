@@ -1,6 +1,6 @@
 /**
  *
- * SimpleController.h
+ * DefaultController.m
  * Cobalt Catalog
  *
  * The MIT License (MIT)
@@ -27,8 +27,8 @@
  *
  */
 
-#import <Cobalt/CobaltViewController.h>
+#import "DefaultController.h"
 
-@interface SimpleController : CobaltViewController<CobaltDelegate>
+@implementation DefaultController
 
 @end
