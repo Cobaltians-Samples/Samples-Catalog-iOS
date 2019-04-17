@@ -27,12 +27,10 @@
  *
  */
 
-#import "SimpleController.h"
-
 #import <Cobalt/CobaltViewController.h>
 #import <Cobalt/PubSub.h>
 
-@interface EventsController : SimpleController <PubSubDelegate>
+@interface EventsController : CobaltViewController <PubSubDelegate>
 
 @property (strong, nonatomic) IBOutlet UIButton * zoomOutButton;
 @property (strong, nonatomic) IBOutlet UIButton * zoomInButton;

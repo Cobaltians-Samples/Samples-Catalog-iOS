@@ -27,8 +27,8 @@
  *
  */
 
-#import "SimpleController.h"
+#import <Cobalt/CobaltViewController.h>
 
-@interface CustomizedPulltoRefreshViewController : SimpleController
+@interface CustomizedPulltoRefreshViewController : CobaltViewController
 
 @end
