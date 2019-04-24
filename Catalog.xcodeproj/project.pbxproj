@@ -51,6 +51,7 @@
 		9FEC05502270AF4300206CEC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9FEC05482270AF4300206CEC /* .gitignore */; };
 		9FEC05512270AF4300206CEC /* SignatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEC054A2270AF4300206CEC /* SignatureViewController.m */; };
 		9FEC05552270B1C800206CEC /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEC05542270B1C700206CEC /* Image.m */; };
+		9FEC05572270B35400206CEC /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEC05562270B35400206CEC /* Photos.framework */; };
 		BE040DBF1DA685E70008A21E /* LocationListener.m in Sources */ = {isa = PBXBuildFile; fileRef = BE040DBE1DA685E70008A21E /* LocationListener.m */; };
 		BE1ABCE21B70F98B0070657C /* CobaltLocationPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1ABCE11B70F98B0070657C /* CobaltLocationPlugin.m */; };
 		BE5D91501D6CA1E400E4B2C7 /* libCobalt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5D914B1D6CA18900E4B2C7 /* libCobalt.a */; };
@@ -186,6 +187,7 @@
 		9FEC054A2270AF4300206CEC /* SignatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureViewController.m; sourceTree = "<group>"; };
 		9FEC05532270B1C700206CEC /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
 		9FEC05542270B1C700206CEC /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
+		9FEC05562270B35400206CEC /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		BE040DBD1DA685E70008A21E /* LocationListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationListener.h; sourceTree = "<group>"; };
 		BE040DBE1DA685E70008A21E /* LocationListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationListener.m; sourceTree = "<group>"; };
 		BE040DC11DA686EE0008A21E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -238,6 +240,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FEC05572270B35400206CEC /* Photos.framework in Frameworks */,
 				9FEC053B2270A4F100206CEC /* MapKit.framework in Frameworks */,
 				542538FD1CEF2AE500190AF9 /* AddressBook.framework in Frameworks */,
 				BE956EBC1C47F653002DBEE3 /* CoreGraphics.framework in Frameworks */,
@@ -494,6 +497,7 @@
 		F01A5A0A1716EF4C0000DD94 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9FEC05562270B35400206CEC /* Photos.framework */,
 				9FEC053C2270AF4300206CEC /* SignaturePlugin */,
 				9FEC05382270A4F100206CEC /* MapKit.framework */,
 				9F93618C2270965C000A5582 /* GeolocPickerPlugin */,
