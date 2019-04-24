@@ -34,6 +34,13 @@
 		8E751EB519EEB62400EDFF4D /* wind@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E751EA619EEB62400EDFF4D /* wind@2x.png */; };
 		8E751EB619EEB62400EDFF4D /* wind@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E751EA719EEB62400EDFF4D /* wind@3x.png */; };
 		8EC5CAD71980FB00001777FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EC5CAD61980FB00001777FA /* Images.xcassets */; };
+		9F9361A12270965C000A5582 /* MapStoryboard.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F93618E2270965C000A5582 /* MapStoryboard.strings */; };
+		9F9361A22270965C000A5582 /* MapStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9361902270965C000A5582 /* MapStoryboard.storyboard */; };
+		9F9361A32270965C000A5582 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9361942270965C000A5582 /* MapViewController.m */; };
+		9F9361A42270965C000A5582 /* FormsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9361972270965C000A5582 /* FormsUtils.m */; };
+		9F9361A52270965C000A5582 /* GeolocPickerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9361982270965C000A5582 /* GeolocPickerPlugin.m */; };
+		9F9361A62270965C000A5582 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9F9361992270965C000A5582 /* .gitignore */; };
+		9F9361A72270965C000A5582 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F93619C2270965C000A5582 /* Localizable.strings */; };
 		BE040DBF1DA685E70008A21E /* LocationListener.m in Sources */ = {isa = PBXBuildFile; fileRef = BE040DBE1DA685E70008A21E /* LocationListener.m */; };
 		BE1ABCE21B70F98B0070657C /* CobaltLocationPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1ABCE11B70F98B0070657C /* CobaltLocationPlugin.m */; };
 		BE5D91501D6CA1E400E4B2C7 /* libCobalt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5D914B1D6CA18900E4B2C7 /* libCobalt.a */; };
@@ -141,6 +148,18 @@
 		8E751EA619EEB62400EDFF4D /* wind@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wind@2x.png"; sourceTree = "<group>"; };
 		8E751EA719EEB62400EDFF4D /* wind@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wind@3x.png"; sourceTree = "<group>"; };
 		8EC5CAD61980FB00001777FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9F93618F2270965C000A5582 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MapStoryboard.strings; sourceTree = "<group>"; };
+		9F9361912270965C000A5582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MapStoryboard.storyboard; sourceTree = "<group>"; };
+		9F9361922270965C000A5582 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/MapStoryboard.strings; sourceTree = "<group>"; };
+		9F9361932270965C000A5582 /* GeolocPickerPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeolocPickerPlugin.h; sourceTree = "<group>"; };
+		9F9361942270965C000A5582 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		9F9361962270965C000A5582 /* FormsUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormsUtils.h; sourceTree = "<group>"; };
+		9F9361972270965C000A5582 /* FormsUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormsUtils.m; sourceTree = "<group>"; };
+		9F9361982270965C000A5582 /* GeolocPickerPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeolocPickerPlugin.m; sourceTree = "<group>"; };
+		9F9361992270965C000A5582 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		9F93619A2270965C000A5582 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		9F93619D2270965C000A5582 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9F93619E2270965C000A5582 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BE040DBD1DA685E70008A21E /* LocationListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationListener.h; sourceTree = "<group>"; };
 		BE040DBE1DA685E70008A21E /* LocationListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationListener.m; sourceTree = "<group>"; };
 		BE040DC11DA686EE0008A21E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -278,6 +297,47 @@
 			path = Design;
 			sourceTree = "<group>";
 		};
+		9F93618C2270965C000A5582 /* GeolocPickerPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				9F93618D2270965C000A5582 /* Design */,
+				9F9361932270965C000A5582 /* GeolocPickerPlugin.h */,
+				9F9361942270965C000A5582 /* MapViewController.m */,
+				9F9361952270965C000A5582 /* Utils */,
+				9F9361982270965C000A5582 /* GeolocPickerPlugin.m */,
+				9F9361992270965C000A5582 /* .gitignore */,
+				9F93619A2270965C000A5582 /* MapViewController.h */,
+				9F93619B2270965C000A5582 /* Localization */,
+			);
+			path = GeolocPickerPlugin;
+			sourceTree = "<group>";
+		};
+		9F93618D2270965C000A5582 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				9F93618E2270965C000A5582 /* MapStoryboard.strings */,
+				9F9361902270965C000A5582 /* MapStoryboard.storyboard */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		9F9361952270965C000A5582 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9F9361962270965C000A5582 /* FormsUtils.h */,
+				9F9361972270965C000A5582 /* FormsUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9F93619B2270965C000A5582 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				9F93619C2270965C000A5582 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
 		BE1ABCD81B70F9730070657C /* LocationPlugin */ = {
 			isa = PBXGroup;
 			children = (
@@ -378,6 +438,7 @@
 		F01A5A0A1716EF4C0000DD94 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9F93618C2270965C000A5582 /* GeolocPickerPlugin */,
 				542538FC1CEF2AE500190AF9 /* AddressBook.framework */,
 				BE956EBB1C47F653002DBEE3 /* CoreGraphics.framework */,
 				BEDE9EB51B7398DB00EAEB94 /* CoreLocation.framework */,
@@ -481,6 +542,7 @@
 				English,
 				en,
 				fr,
+				Base,
 			);
 			mainGroup = F01A59FF1716EF4C0000DD94;
 			productRefGroup = F01A5A091716EF4C0000DD94 /* Products */;
@@ -526,10 +588,13 @@
 				8E751EB419EEB62400EDFF4D /* wind.png in Resources */,
 				8E751EB319EEB62400EDFF4D /* sun@3x.png in Resources */,
 				8E751EAB19EEB62400EDFF4D /* cloudy.png in Resources */,
+				9F9361A22270965C000A5582 /* MapStoryboard.storyboard in Resources */,
 				F01A5A161716EF4C0000DD94 /* InfoPlist.strings in Resources */,
+				9F9361A62270965C000A5582 /* .gitignore in Resources */,
 				542538FF1CEF3AB800190AF9 /* logo.png in Resources */,
 				8E751EAD19EEB62400EDFF4D /* cloudy@3x.png in Resources */,
 				F08152BF22706A2100F338D8 /* LICENSE in Resources */,
+				9F9361A12270965C000A5582 /* MapStoryboard.strings in Resources */,
 				8E751EAA19EEB62400EDFF4D /* black_sun@3x.png in Resources */,
 				8E751EB119EEB62400EDFF4D /* sun.png in Resources */,
 				8EC5CAD71980FB00001777FA /* Images.xcassets in Resources */,
@@ -539,6 +604,7 @@
 				C49597591717090B006454BA /* CallbacksController.xib in Resources */,
 				C4D664A3171E8D97009EDE58 /* EventsController.xib in Resources */,
 				8E751EB019EEB62400EDFF4D /* moon@3x.png in Resources */,
+				9F9361A72270965C000A5582 /* Localizable.strings in Resources */,
 				BE7BE5491CA05CB400AADDEB /* FontAwesome.ttf in Resources */,
 				8E751EB219EEB62400EDFF4D /* sun@2x.png in Resources */,
 				8E751EAE19EEB62400EDFF4D /* moon.png in Resources */,
@@ -562,6 +628,7 @@
 				F01A5A181716EF4D0000DD94 /* main.m in Sources */,
 				BEDD8DA81BAC282C00265616 /* CobaltAppInfosPlugin.m in Sources */,
 				F08152C022706A2100F338D8 /* Snackbar.m in Sources */,
+				9F9361A32270965C000A5582 /* MapViewController.m in Sources */,
 				F08152C122706A2100F338D8 /* CobaltSnackbarPlugin.m in Sources */,
 				F01A5A1C1716EF4D0000DD94 /* AppDelegate.m in Sources */,
 				6AAF550B1CD8DD0C005C3123 /* CobaltNetworkStatusPlugin.m in Sources */,
@@ -572,6 +639,8 @@
 				C49597581717090B006454BA /* CallbacksController.m in Sources */,
 				BE040DBF1DA685E70008A21E /* LocationListener.m in Sources */,
 				C4D664A2171E8D97009EDE58 /* EventsController.m in Sources */,
+				9F9361A42270965C000A5582 /* FormsUtils.m in Sources */,
+				9F9361A52270965C000A5582 /* GeolocPickerPlugin.m in Sources */,
 				54EC75571CEF2910006E02DD /* CobaltSharePlugin.m in Sources */,
 				C4D664AA171E91D5009EDE58 /* DefaultController.m in Sources */,
 			);
@@ -588,6 +657,32 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		9F93618E2270965C000A5582 /* MapStoryboard.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F93618F2270965C000A5582 /* en */,
+				9F9361922270965C000A5582 /* fr */,
+			);
+			name = MapStoryboard.strings;
+			sourceTree = "<group>";
+		};
+		9F9361902270965C000A5582 /* MapStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F9361912270965C000A5582 /* Base */,
+			);
+			name = MapStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		9F93619C2270965C000A5582 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F93619D2270965C000A5582 /* en */,
+				9F93619E2270965C000A5582 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		F01A5A141716EF4C0000DD94 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
