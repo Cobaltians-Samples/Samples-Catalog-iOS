@@ -43,6 +43,13 @@
 		9F9361A72270965C000A5582 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F93619C2270965C000A5582 /* Localizable.strings */; };
 		9F9361AB227099EF000A5582 /* PlaceAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9361A9227099EF000A5582 /* PlaceAnnotation.m */; };
 		9FEC053B2270A4F100206CEC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEC05382270A4F100206CEC /* MapKit.framework */; };
+		9FEC054B2270AF4300206CEC /* SignatureStoryboard.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FEC053E2270AF4300206CEC /* SignatureStoryboard.strings */; };
+		9FEC054C2270AF4300206CEC /* SignatureStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEC05402270AF4300206CEC /* SignatureStoryboard.storyboard */; };
+		9FEC054D2270AF4300206CEC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9FEC05452270AF4300206CEC /* LICENSE */; };
+		9FEC054E2270AF4300206CEC /* ImageSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEC05462270AF4300206CEC /* ImageSignature.m */; };
+		9FEC054F2270AF4300206CEC /* SignaturePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEC05472270AF4300206CEC /* SignaturePlugin.m */; };
+		9FEC05502270AF4300206CEC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9FEC05482270AF4300206CEC /* .gitignore */; };
+		9FEC05512270AF4300206CEC /* SignatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEC054A2270AF4300206CEC /* SignatureViewController.m */; };
 		BE040DBF1DA685E70008A21E /* LocationListener.m in Sources */ = {isa = PBXBuildFile; fileRef = BE040DBE1DA685E70008A21E /* LocationListener.m */; };
 		BE1ABCE21B70F98B0070657C /* CobaltLocationPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1ABCE11B70F98B0070657C /* CobaltLocationPlugin.m */; };
 		BE5D91501D6CA1E400E4B2C7 /* libCobalt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5D914B1D6CA18900E4B2C7 /* libCobalt.a */; };
@@ -165,6 +172,17 @@
 		9F9361A9227099EF000A5582 /* PlaceAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceAnnotation.m; sourceTree = "<group>"; };
 		9F9361AA227099EF000A5582 /* PlaceAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceAnnotation.h; sourceTree = "<group>"; };
 		9FEC05382270A4F100206CEC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9FEC053F2270AF4300206CEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SignatureStoryboard.strings; sourceTree = "<group>"; };
+		9FEC05412270AF4300206CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SignatureStoryboard.storyboard; sourceTree = "<group>"; };
+		9FEC05422270AF4300206CEC /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/SignatureStoryboard.strings; sourceTree = "<group>"; };
+		9FEC05432270AF4300206CEC /* SignaturePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignaturePlugin.h; sourceTree = "<group>"; };
+		9FEC05442270AF4300206CEC /* SignatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureViewController.h; sourceTree = "<group>"; };
+		9FEC05452270AF4300206CEC /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9FEC05462270AF4300206CEC /* ImageSignature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageSignature.m; sourceTree = "<group>"; };
+		9FEC05472270AF4300206CEC /* SignaturePlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignaturePlugin.m; sourceTree = "<group>"; };
+		9FEC05482270AF4300206CEC /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		9FEC05492270AF4300206CEC /* ImageSignature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageSignature.h; sourceTree = "<group>"; };
+		9FEC054A2270AF4300206CEC /* SignatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureViewController.m; sourceTree = "<group>"; };
 		BE040DBD1DA685E70008A21E /* LocationListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationListener.h; sourceTree = "<group>"; };
 		BE040DBE1DA685E70008A21E /* LocationListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationListener.m; sourceTree = "<group>"; };
 		BE040DC11DA686EE0008A21E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -346,6 +364,31 @@
 			path = Localization;
 			sourceTree = "<group>";
 		};
+		9FEC053C2270AF4300206CEC /* SignaturePlugin */ = {
+			isa = PBXGroup;
+			children = (
+				9FEC053D2270AF4300206CEC /* Design */,
+				9FEC05432270AF4300206CEC /* SignaturePlugin.h */,
+				9FEC05442270AF4300206CEC /* SignatureViewController.h */,
+				9FEC05452270AF4300206CEC /* LICENSE */,
+				9FEC05462270AF4300206CEC /* ImageSignature.m */,
+				9FEC05472270AF4300206CEC /* SignaturePlugin.m */,
+				9FEC05482270AF4300206CEC /* .gitignore */,
+				9FEC05492270AF4300206CEC /* ImageSignature.h */,
+				9FEC054A2270AF4300206CEC /* SignatureViewController.m */,
+			);
+			path = SignaturePlugin;
+			sourceTree = "<group>";
+		};
+		9FEC053D2270AF4300206CEC /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				9FEC053E2270AF4300206CEC /* SignatureStoryboard.strings */,
+				9FEC05402270AF4300206CEC /* SignatureStoryboard.storyboard */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
 		BE1ABCD81B70F9730070657C /* LocationPlugin */ = {
 			isa = PBXGroup;
 			children = (
@@ -446,6 +489,7 @@
 		F01A5A0A1716EF4C0000DD94 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9FEC053C2270AF4300206CEC /* SignaturePlugin */,
 				9FEC05382270A4F100206CEC /* MapKit.framework */,
 				9F93618C2270965C000A5582 /* GeolocPickerPlugin */,
 				542538FC1CEF2AE500190AF9 /* AddressBook.framework */,
@@ -591,20 +635,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FEC054C2270AF4300206CEC /* SignatureStoryboard.storyboard in Resources */,
 				F035D4F52266313B008BD0D7 /* www in Resources */,
 				8E751EB619EEB62400EDFF4D /* wind@3x.png in Resources */,
 				8E751EAF19EEB62400EDFF4D /* moon@2x.png in Resources */,
+				9FEC05502270AF4300206CEC /* .gitignore in Resources */,
 				8E751EB419EEB62400EDFF4D /* wind.png in Resources */,
 				8E751EB319EEB62400EDFF4D /* sun@3x.png in Resources */,
 				8E751EAB19EEB62400EDFF4D /* cloudy.png in Resources */,
 				9F9361A22270965C000A5582 /* MapStoryboard.storyboard in Resources */,
 				F01A5A161716EF4C0000DD94 /* InfoPlist.strings in Resources */,
 				9F9361A62270965C000A5582 /* .gitignore in Resources */,
+				9FEC054D2270AF4300206CEC /* LICENSE in Resources */,
 				542538FF1CEF3AB800190AF9 /* logo.png in Resources */,
 				8E751EAD19EEB62400EDFF4D /* cloudy@3x.png in Resources */,
 				F08152BF22706A2100F338D8 /* LICENSE in Resources */,
 				9F9361A12270965C000A5582 /* MapStoryboard.strings in Resources */,
 				8E751EAA19EEB62400EDFF4D /* black_sun@3x.png in Resources */,
+				9FEC054B2270AF4300206CEC /* SignatureStoryboard.strings in Resources */,
 				8E751EB119EEB62400EDFF4D /* sun.png in Resources */,
 				8EC5CAD71980FB00001777FA /* Images.xcassets in Resources */,
 				8E751EB519EEB62400EDFF4D /* wind@2x.png in Resources */,
@@ -630,12 +678,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FEC054E2270AF4300206CEC /* ImageSignature.m in Sources */,
 				540BD3E01CFDCF1400E0580A /* CobaltPdfPlugin.m in Sources */,
 				BE7BE5481CA05CB400AADDEB /* FontAwesome.m in Sources */,
 				6AAF55161CD8DD19005C3123 /* BatteryChangeReceiver.m in Sources */,
 				BEDD518D1BCE993300E204AC /* ActionPickerPlugin.m in Sources */,
 				F01A5A181716EF4D0000DD94 /* main.m in Sources */,
 				BEDD8DA81BAC282C00265616 /* CobaltAppInfosPlugin.m in Sources */,
+				9FEC05512270AF4300206CEC /* SignatureViewController.m in Sources */,
 				F08152C022706A2100F338D8 /* Snackbar.m in Sources */,
 				9F9361A32270965C000A5582 /* MapViewController.m in Sources */,
 				F08152C122706A2100F338D8 /* CobaltSnackbarPlugin.m in Sources */,
@@ -652,6 +702,7 @@
 				9F9361A52270965C000A5582 /* GeolocPickerPlugin.m in Sources */,
 				54EC75571CEF2910006E02DD /* CobaltSharePlugin.m in Sources */,
 				9F9361AB227099EF000A5582 /* PlaceAnnotation.m in Sources */,
+				9FEC054F2270AF4300206CEC /* SignaturePlugin.m in Sources */,
 				C4D664AA171E91D5009EDE58 /* DefaultController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -691,6 +742,23 @@
 				9F93619E2270965C000A5582 /* fr */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		9FEC053E2270AF4300206CEC /* SignatureStoryboard.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FEC053F2270AF4300206CEC /* en */,
+				9FEC05422270AF4300206CEC /* fr */,
+			);
+			name = SignatureStoryboard.strings;
+			sourceTree = "<group>";
+		};
+		9FEC05402270AF4300206CEC /* SignatureStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FEC05412270AF4300206CEC /* Base */,
+			);
+			name = SignatureStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 		F01A5A141716EF4C0000DD94 /* InfoPlist.strings */ = {

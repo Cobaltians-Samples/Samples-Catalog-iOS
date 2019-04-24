@@ -36,3 +36,6 @@
 [submodule "GeolocPickerPlugin"]
 	path = GeolocPickerPlugin
 	url = https://github.com/Cobaltians-Plugins/Plugins-GeolocPicker-iOS.git
+[submodule "SignaturePlugin"]
+	path = SignaturePlugin
+	url = https://github.com/Cobaltians-Plugins/Plugins-Signature-iOS.git
