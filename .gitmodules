@@ -33,3 +33,6 @@
 	path = SnackbarPlugin
 	url = https://github.com/Cobaltians-Plugins/Plugins-Snackbar-iOS.git
 	branch = cobalt1.0
+[submodule "GeolocPickerPlugin"]
+	path = GeolocPickerPlugin
+	url = https://github.com/Cobaltians-Plugins/Plugins-GeolocPicker-iOS.git
