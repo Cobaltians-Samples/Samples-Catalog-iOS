@@ -41,6 +41,8 @@
 		9F9361A52270965C000A5582 /* GeolocPickerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9361982270965C000A5582 /* GeolocPickerPlugin.m */; };
 		9F9361A62270965C000A5582 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9F9361992270965C000A5582 /* .gitignore */; };
 		9F9361A72270965C000A5582 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F93619C2270965C000A5582 /* Localizable.strings */; };
+		9F9361AB227099EF000A5582 /* PlaceAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9361A9227099EF000A5582 /* PlaceAnnotation.m */; };
+		9FEC053B2270A4F100206CEC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEC05382270A4F100206CEC /* MapKit.framework */; };
 		BE040DBF1DA685E70008A21E /* LocationListener.m in Sources */ = {isa = PBXBuildFile; fileRef = BE040DBE1DA685E70008A21E /* LocationListener.m */; };
 		BE1ABCE21B70F98B0070657C /* CobaltLocationPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1ABCE11B70F98B0070657C /* CobaltLocationPlugin.m */; };
 		BE5D91501D6CA1E400E4B2C7 /* libCobalt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5D914B1D6CA18900E4B2C7 /* libCobalt.a */; };
@@ -160,6 +162,9 @@
 		9F93619A2270965C000A5582 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		9F93619D2270965C000A5582 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9F93619E2270965C000A5582 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9F9361A9227099EF000A5582 /* PlaceAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceAnnotation.m; sourceTree = "<group>"; };
+		9F9361AA227099EF000A5582 /* PlaceAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceAnnotation.h; sourceTree = "<group>"; };
+		9FEC05382270A4F100206CEC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		BE040DBD1DA685E70008A21E /* LocationListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationListener.h; sourceTree = "<group>"; };
 		BE040DBE1DA685E70008A21E /* LocationListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationListener.m; sourceTree = "<group>"; };
 		BE040DC11DA686EE0008A21E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -212,6 +217,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FEC053B2270A4F100206CEC /* MapKit.framework in Frameworks */,
 				542538FD1CEF2AE500190AF9 /* AddressBook.framework in Frameworks */,
 				BE956EBC1C47F653002DBEE3 /* CoreGraphics.framework in Frameworks */,
 				BEDE9EB61B7398DB00EAEB94 /* CoreLocation.framework in Frameworks */,
@@ -302,6 +308,8 @@
 			children = (
 				9F93618D2270965C000A5582 /* Design */,
 				9F9361932270965C000A5582 /* GeolocPickerPlugin.h */,
+				9F9361AA227099EF000A5582 /* PlaceAnnotation.h */,
+				9F9361A9227099EF000A5582 /* PlaceAnnotation.m */,
 				9F9361942270965C000A5582 /* MapViewController.m */,
 				9F9361952270965C000A5582 /* Utils */,
 				9F9361982270965C000A5582 /* GeolocPickerPlugin.m */,
@@ -438,6 +446,7 @@
 		F01A5A0A1716EF4C0000DD94 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9FEC05382270A4F100206CEC /* MapKit.framework */,
 				9F93618C2270965C000A5582 /* GeolocPickerPlugin */,
 				542538FC1CEF2AE500190AF9 /* AddressBook.framework */,
 				BE956EBB1C47F653002DBEE3 /* CoreGraphics.framework */,
@@ -642,6 +651,7 @@
 				9F9361A42270965C000A5582 /* FormsUtils.m in Sources */,
 				9F9361A52270965C000A5582 /* GeolocPickerPlugin.m in Sources */,
 				54EC75571CEF2910006E02DD /* CobaltSharePlugin.m in Sources */,
+				9F9361AB227099EF000A5582 /* PlaceAnnotation.m in Sources */,
 				C4D664AA171E91D5009EDE58 /* DefaultController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
