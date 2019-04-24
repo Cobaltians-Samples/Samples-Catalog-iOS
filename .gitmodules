@@ -39,3 +39,6 @@
 [submodule "SignaturePlugin"]
 	path = SignaturePlugin
 	url = https://github.com/Cobaltians-Plugins/Plugins-Signature-iOS.git
+[submodule "AssetCachePlugin"]
+	path = AssetCachePlugin
+	url = https://github.com/Cobaltians-Plugins/Plugins-AssetCache-iOS.git

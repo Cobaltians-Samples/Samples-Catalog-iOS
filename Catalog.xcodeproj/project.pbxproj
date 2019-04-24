@@ -52,6 +52,10 @@
 		9FEC05512270AF4300206CEC /* SignatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEC054A2270AF4300206CEC /* SignatureViewController.m */; };
 		9FEC05552270B1C800206CEC /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEC05542270B1C700206CEC /* Image.m */; };
 		9FEC05572270B35400206CEC /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEC05562270B35400206CEC /* Photos.framework */; };
+		9FEC055F2270B52D00206CEC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9FEC05592270B52D00206CEC /* LICENSE */; };
+		9FEC05602270B52D00206CEC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9FEC055C2270B52D00206CEC /* .gitignore */; };
+		9FEC05612270B52D00206CEC /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEC055D2270B52D00206CEC /* NSString+MD5.m */; };
+		9FEC05622270B52D00206CEC /* AssetCachePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEC055E2270B52D00206CEC /* AssetCachePlugin.m */; };
 		BE040DBF1DA685E70008A21E /* LocationListener.m in Sources */ = {isa = PBXBuildFile; fileRef = BE040DBE1DA685E70008A21E /* LocationListener.m */; };
 		BE1ABCE21B70F98B0070657C /* CobaltLocationPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1ABCE11B70F98B0070657C /* CobaltLocationPlugin.m */; };
 		BE5D91501D6CA1E400E4B2C7 /* libCobalt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5D914B1D6CA18900E4B2C7 /* libCobalt.a */; };
@@ -188,6 +192,12 @@
 		9FEC05532270B1C700206CEC /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
 		9FEC05542270B1C700206CEC /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
 		9FEC05562270B35400206CEC /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		9FEC05592270B52D00206CEC /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9FEC055A2270B52D00206CEC /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		9FEC055B2270B52D00206CEC /* AssetCachePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetCachePlugin.h; sourceTree = "<group>"; };
+		9FEC055C2270B52D00206CEC /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		9FEC055D2270B52D00206CEC /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		9FEC055E2270B52D00206CEC /* AssetCachePlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetCachePlugin.m; sourceTree = "<group>"; };
 		BE040DBD1DA685E70008A21E /* LocationListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationListener.h; sourceTree = "<group>"; };
 		BE040DBE1DA685E70008A21E /* LocationListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationListener.m; sourceTree = "<group>"; };
 		BE040DC11DA686EE0008A21E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -397,6 +407,19 @@
 			path = Design;
 			sourceTree = "<group>";
 		};
+		9FEC05582270B52D00206CEC /* AssetCachePlugin */ = {
+			isa = PBXGroup;
+			children = (
+				9FEC05592270B52D00206CEC /* LICENSE */,
+				9FEC055A2270B52D00206CEC /* NSString+MD5.h */,
+				9FEC055B2270B52D00206CEC /* AssetCachePlugin.h */,
+				9FEC055C2270B52D00206CEC /* .gitignore */,
+				9FEC055D2270B52D00206CEC /* NSString+MD5.m */,
+				9FEC055E2270B52D00206CEC /* AssetCachePlugin.m */,
+			);
+			path = AssetCachePlugin;
+			sourceTree = "<group>";
+		};
 		BE1ABCD81B70F9730070657C /* LocationPlugin */ = {
 			isa = PBXGroup;
 			children = (
@@ -497,6 +520,7 @@
 		F01A5A0A1716EF4C0000DD94 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9FEC05582270B52D00206CEC /* AssetCachePlugin */,
 				9FEC05562270B35400206CEC /* Photos.framework */,
 				9FEC053C2270AF4300206CEC /* SignaturePlugin */,
 				9FEC05382270A4F100206CEC /* MapKit.framework */,
@@ -652,12 +676,14 @@
 				8E751EB419EEB62400EDFF4D /* wind.png in Resources */,
 				8E751EB319EEB62400EDFF4D /* sun@3x.png in Resources */,
 				8E751EAB19EEB62400EDFF4D /* cloudy.png in Resources */,
+				9FEC055F2270B52D00206CEC /* LICENSE in Resources */,
 				9F9361A22270965C000A5582 /* MapStoryboard.storyboard in Resources */,
 				F01A5A161716EF4C0000DD94 /* InfoPlist.strings in Resources */,
 				9F9361A62270965C000A5582 /* .gitignore in Resources */,
 				9FEC054D2270AF4300206CEC /* LICENSE in Resources */,
 				542538FF1CEF3AB800190AF9 /* logo.png in Resources */,
 				8E751EAD19EEB62400EDFF4D /* cloudy@3x.png in Resources */,
+				9FEC05602270B52D00206CEC /* .gitignore in Resources */,
 				F08152BF22706A2100F338D8 /* LICENSE in Resources */,
 				9F9361A12270965C000A5582 /* MapStoryboard.strings in Resources */,
 				8E751EAA19EEB62400EDFF4D /* black_sun@3x.png in Resources */,
@@ -693,6 +719,7 @@
 				6AAF55161CD8DD19005C3123 /* BatteryChangeReceiver.m in Sources */,
 				BEDD518D1BCE993300E204AC /* ActionPickerPlugin.m in Sources */,
 				F01A5A181716EF4D0000DD94 /* main.m in Sources */,
+				9FEC05612270B52D00206CEC /* NSString+MD5.m in Sources */,
 				BEDD8DA81BAC282C00265616 /* CobaltAppInfosPlugin.m in Sources */,
 				9FEC05512270AF4300206CEC /* SignatureViewController.m in Sources */,
 				F08152C022706A2100F338D8 /* Snackbar.m in Sources */,
@@ -713,6 +740,7 @@
 				54EC75571CEF2910006E02DD /* CobaltSharePlugin.m in Sources */,
 				9F9361AB227099EF000A5582 /* PlaceAnnotation.m in Sources */,
 				9FEC054F2270AF4300206CEC /* SignaturePlugin.m in Sources */,
+				9FEC05622270B52D00206CEC /* AssetCachePlugin.m in Sources */,
 				C4D664AA171E91D5009EDE58 /* DefaultController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
