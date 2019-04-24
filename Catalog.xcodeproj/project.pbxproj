@@ -50,6 +50,7 @@
 		9FEC054F2270AF4300206CEC /* SignaturePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEC05472270AF4300206CEC /* SignaturePlugin.m */; };
 		9FEC05502270AF4300206CEC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9FEC05482270AF4300206CEC /* .gitignore */; };
 		9FEC05512270AF4300206CEC /* SignatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEC054A2270AF4300206CEC /* SignatureViewController.m */; };
+		9FEC05552270B1C800206CEC /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEC05542270B1C700206CEC /* Image.m */; };
 		BE040DBF1DA685E70008A21E /* LocationListener.m in Sources */ = {isa = PBXBuildFile; fileRef = BE040DBE1DA685E70008A21E /* LocationListener.m */; };
 		BE1ABCE21B70F98B0070657C /* CobaltLocationPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1ABCE11B70F98B0070657C /* CobaltLocationPlugin.m */; };
 		BE5D91501D6CA1E400E4B2C7 /* libCobalt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5D914B1D6CA18900E4B2C7 /* libCobalt.a */; };
@@ -183,6 +184,8 @@
 		9FEC05482270AF4300206CEC /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		9FEC05492270AF4300206CEC /* ImageSignature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageSignature.h; sourceTree = "<group>"; };
 		9FEC054A2270AF4300206CEC /* SignatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureViewController.m; sourceTree = "<group>"; };
+		9FEC05532270B1C700206CEC /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		9FEC05542270B1C700206CEC /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
 		BE040DBD1DA685E70008A21E /* LocationListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationListener.h; sourceTree = "<group>"; };
 		BE040DBE1DA685E70008A21E /* LocationListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationListener.m; sourceTree = "<group>"; };
 		BE040DC11DA686EE0008A21E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -367,6 +370,8 @@
 		9FEC053C2270AF4300206CEC /* SignaturePlugin */ = {
 			isa = PBXGroup;
 			children = (
+				9FEC05532270B1C700206CEC /* Image.h */,
+				9FEC05542270B1C700206CEC /* Image.m */,
 				9FEC053D2270AF4300206CEC /* Design */,
 				9FEC05432270AF4300206CEC /* SignaturePlugin.h */,
 				9FEC05442270AF4300206CEC /* SignatureViewController.h */,
@@ -693,6 +698,7 @@
 				6AAF550B1CD8DD0C005C3123 /* CobaltNetworkStatusPlugin.m in Sources */,
 				BE1ABCE21B70F98B0070657C /* CobaltLocationPlugin.m in Sources */,
 				6AAF55171CD8DD19005C3123 /* CobaltBatteryStatusPlugin.m in Sources */,
+				9FEC05552270B1C800206CEC /* Image.m in Sources */,
 				8E1070BF1987ED8800DED934 /* CustomizedPulltoRefreshViewController.m in Sources */,
 				6AAF550D1CD8DD0C005C3123 /* NetworkChangeReceiver.m in Sources */,
 				C49597581717090B006454BA /* CallbacksController.m in Sources */,
