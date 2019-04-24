@@ -29,3 +29,7 @@
 	path = Catalog/www
 	url = git@github.com:Cobaltians-Samples/Samples-Catalog-Web.git
 	branch = cobalt1.0
+[submodule "SnackbarPlugin"]
+	path = SnackbarPlugin
+	url = https://github.com/Cobaltians-Plugins/Plugins-Snackbar-iOS.git
+	branch = cobalt1.0

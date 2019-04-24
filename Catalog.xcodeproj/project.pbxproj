@@ -56,6 +56,9 @@
 		F01A5A181716EF4D0000DD94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F01A5A171716EF4D0000DD94 /* main.m */; };
 		F01A5A1C1716EF4D0000DD94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F01A5A1B1716EF4D0000DD94 /* AppDelegate.m */; };
 		F035D4F52266313B008BD0D7 /* www in Resources */ = {isa = PBXBuildFile; fileRef = F035D4F42266313B008BD0D7 /* www */; };
+		F08152BF22706A2100F338D8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F08152B922706A2100F338D8 /* LICENSE */; };
+		F08152C022706A2100F338D8 /* Snackbar.m in Sources */ = {isa = PBXBuildFile; fileRef = F08152BB22706A2100F338D8 /* Snackbar.m */; };
+		F08152C122706A2100F338D8 /* CobaltSnackbarPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F08152BC22706A2100F338D8 /* CobaltSnackbarPlugin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -178,6 +181,11 @@
 		F01A5A1A1716EF4D0000DD94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F01A5A1B1716EF4D0000DD94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F035D4F42266313B008BD0D7 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		F08152B822706A2100F338D8 /* Snackbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Snackbar.h; sourceTree = "<group>"; };
+		F08152B922706A2100F338D8 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F08152BA22706A2100F338D8 /* CobaltSnackbarPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CobaltSnackbarPlugin.h; sourceTree = "<group>"; };
+		F08152BB22706A2100F338D8 /* Snackbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Snackbar.m; sourceTree = "<group>"; };
+		F08152BC22706A2100F338D8 /* CobaltSnackbarPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CobaltSnackbarPlugin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -386,6 +394,7 @@
 				6AAF55031CD8DD0C005C3123 /* NetworkStatusPlugin */,
 				540BD3DA1CFDCF1400E0580A /* PdfPlugin */,
 				54EC75511CEF2910006E02DD /* SharePlugin */,
+				F08152B722706A2100F338D8 /* SnackbarPlugin */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -413,6 +422,18 @@
 				F01A5A171716EF4D0000DD94 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F08152B722706A2100F338D8 /* SnackbarPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				F08152B822706A2100F338D8 /* Snackbar.h */,
+				F08152B922706A2100F338D8 /* LICENSE */,
+				F08152BA22706A2100F338D8 /* CobaltSnackbarPlugin.h */,
+				F08152BB22706A2100F338D8 /* Snackbar.m */,
+				F08152BC22706A2100F338D8 /* CobaltSnackbarPlugin.m */,
+			);
+			path = SnackbarPlugin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -508,6 +529,7 @@
 				F01A5A161716EF4C0000DD94 /* InfoPlist.strings in Resources */,
 				542538FF1CEF3AB800190AF9 /* logo.png in Resources */,
 				8E751EAD19EEB62400EDFF4D /* cloudy@3x.png in Resources */,
+				F08152BF22706A2100F338D8 /* LICENSE in Resources */,
 				8E751EAA19EEB62400EDFF4D /* black_sun@3x.png in Resources */,
 				8E751EB119EEB62400EDFF4D /* sun.png in Resources */,
 				8EC5CAD71980FB00001777FA /* Images.xcassets in Resources */,
@@ -539,6 +561,8 @@
 				BEDD518D1BCE993300E204AC /* ActionPickerPlugin.m in Sources */,
 				F01A5A181716EF4D0000DD94 /* main.m in Sources */,
 				BEDD8DA81BAC282C00265616 /* CobaltAppInfosPlugin.m in Sources */,
+				F08152C022706A2100F338D8 /* Snackbar.m in Sources */,
+				F08152C122706A2100F338D8 /* CobaltSnackbarPlugin.m in Sources */,
 				F01A5A1C1716EF4D0000DD94 /* AppDelegate.m in Sources */,
 				6AAF550B1CD8DD0C005C3123 /* CobaltNetworkStatusPlugin.m in Sources */,
 				BE1ABCE21B70F98B0070657C /* CobaltLocationPlugin.m in Sources */,
