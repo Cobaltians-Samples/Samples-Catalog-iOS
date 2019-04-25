@@ -42,3 +42,7 @@
 [submodule "AssetCachePlugin"]
 	path = AssetCachePlugin
 	url = https://github.com/Cobaltians-Plugins/Plugins-AssetCache-iOS.git
+[submodule "Cobalt-iOS"]
+	path = Cobalt-iOS
+	url = https://github.com/cobaltians/Cobalt-iOS.git
+	branch = cobalt1.0
