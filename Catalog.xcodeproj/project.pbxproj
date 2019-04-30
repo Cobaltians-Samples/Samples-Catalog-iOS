@@ -45,10 +45,8 @@
 		9FEC053B2270A4F100206CEC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEC05382270A4F100206CEC /* MapKit.framework */; };
 		9FEC054B2270AF4300206CEC /* SignatureStoryboard.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FEC053E2270AF4300206CEC /* SignatureStoryboard.strings */; };
 		9FEC054C2270AF4300206CEC /* SignatureStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEC05402270AF4300206CEC /* SignatureStoryboard.storyboard */; };
-		9FEC054E2270AF4300206CEC /* ImageSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEC05462270AF4300206CEC /* ImageSignature.m */; };
 		9FEC054F2270AF4300206CEC /* SignaturePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEC05472270AF4300206CEC /* SignaturePlugin.m */; };
 		9FEC05512270AF4300206CEC /* SignatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEC054A2270AF4300206CEC /* SignatureViewController.m */; };
-		9FEC05552270B1C800206CEC /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEC05542270B1C700206CEC /* Image.m */; };
 		9FEC05572270B35400206CEC /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEC05562270B35400206CEC /* Photos.framework */; };
 		9FEC05612270B52D00206CEC /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEC055D2270B52D00206CEC /* NSString+MD5.m */; };
 		9FEC05622270B52D00206CEC /* AssetCachePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEC055E2270B52D00206CEC /* AssetCachePlugin.m */; };
@@ -180,13 +178,9 @@
 		9FEC05432270AF4300206CEC /* SignaturePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignaturePlugin.h; sourceTree = "<group>"; };
 		9FEC05442270AF4300206CEC /* SignatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureViewController.h; sourceTree = "<group>"; };
 		9FEC05452270AF4300206CEC /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		9FEC05462270AF4300206CEC /* ImageSignature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageSignature.m; sourceTree = "<group>"; };
 		9FEC05472270AF4300206CEC /* SignaturePlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignaturePlugin.m; sourceTree = "<group>"; };
 		9FEC05482270AF4300206CEC /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		9FEC05492270AF4300206CEC /* ImageSignature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageSignature.h; sourceTree = "<group>"; };
 		9FEC054A2270AF4300206CEC /* SignatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureViewController.m; sourceTree = "<group>"; };
-		9FEC05532270B1C700206CEC /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
-		9FEC05542270B1C700206CEC /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
 		9FEC05562270B35400206CEC /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		9FEC05592270B52D00206CEC /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9FEC055A2270B52D00206CEC /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
@@ -380,16 +374,12 @@
 		9FEC053C2270AF4300206CEC /* SignaturePlugin */ = {
 			isa = PBXGroup;
 			children = (
-				9FEC05532270B1C700206CEC /* Image.h */,
-				9FEC05542270B1C700206CEC /* Image.m */,
 				9FEC053D2270AF4300206CEC /* Design */,
 				9FEC05432270AF4300206CEC /* SignaturePlugin.h */,
 				9FEC05442270AF4300206CEC /* SignatureViewController.h */,
 				9FEC05452270AF4300206CEC /* LICENSE */,
-				9FEC05462270AF4300206CEC /* ImageSignature.m */,
 				9FEC05472270AF4300206CEC /* SignaturePlugin.m */,
 				9FEC05482270AF4300206CEC /* .gitignore */,
-				9FEC05492270AF4300206CEC /* ImageSignature.h */,
 				9FEC054A2270AF4300206CEC /* SignatureViewController.m */,
 			);
 			path = SignaturePlugin;
@@ -705,7 +695,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FEC054E2270AF4300206CEC /* ImageSignature.m in Sources */,
 				540BD3E01CFDCF1400E0580A /* CobaltPdfPlugin.m in Sources */,
 				BE7BE5481CA05CB400AADDEB /* FontAwesome.m in Sources */,
 				6AAF55161CD8DD19005C3123 /* BatteryChangeReceiver.m in Sources */,
@@ -721,7 +710,6 @@
 				6AAF550B1CD8DD0C005C3123 /* CobaltNetworkStatusPlugin.m in Sources */,
 				BE1ABCE21B70F98B0070657C /* CobaltLocationPlugin.m in Sources */,
 				6AAF55171CD8DD19005C3123 /* CobaltBatteryStatusPlugin.m in Sources */,
-				9FEC05552270B1C800206CEC /* Image.m in Sources */,
 				8E1070BF1987ED8800DED934 /* CustomizedPulltoRefreshViewController.m in Sources */,
 				6AAF550D1CD8DD0C005C3123 /* NetworkChangeReceiver.m in Sources */,
 				C49597581717090B006454BA /* CallbacksController.m in Sources */,
