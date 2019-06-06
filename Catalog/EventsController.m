@@ -51,8 +51,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view from its nib.
-    [self setDelegate:self];
     //[self.navigationController setNavigationBarHidden:YES];
 
     textSizeMaxZoomLevel = [NSNumber numberWithInt:20];
@@ -64,28 +64,39 @@
     [self setZoomLevelInWebView];
 }
 
-////////////////////////////////////////////////////////////////////////////////////////////////
-
-#pragma mark COBALT DELEGATE METHODS
-
-////////////////////////////////////////////////////////////////////////////////////////////////
-
-- (BOOL)onUnhandledEvent:(NSString *)event withData:(NSDictionary *)data andCallback:(NSString *)callback
+- (void)viewWillAppear:(BOOL)animated
 {
-    NSLog(@"avant le if");
-    if ([event isEqualToString:hello]) {
-        NSLog(@"dans le if");
-        UIAlertView * alertView = [[UIAlertView alloc] initWithTitle:@"hello" message:@"hello world" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-        [alertView performSelectorOnMainThread:@selector(show) withObject:nil waitUntilDone:YES];
-        return YES;
-    }
+    [super viewWillAppear:animated];
     
-    return NO;
+    [[PubSub sharedInstance] subscribeDelegate:self
+                                     toChannel:hello];
 }
 
-- (BOOL)onUnhandledCallback:(NSString *)callback withData:(NSDictionary *)data
+- (void)viewDidDisappear:(BOOL)animated
 {
-    return NO;
+    [super viewDidDisappear:animated];
+    
+    [[PubSub sharedInstance] unsubscribeDelegate:self
+                                     fromChannel:hello];
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+#pragma mark PUBSUB DELEGATE METHODS
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+- (void)didReceiveMessage:(nullable NSDictionary *)message
+                onChannel:(nonnull NSString *)channel {
+    if ([channel isEqualToString:hello]) {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [[[UIAlertView alloc] initWithTitle:@"hello"
+                                        message:@"hello world"
+                                       delegate:nil
+                              cancelButtonTitle:@"OK"
+                              otherButtonTitles:nil] show];
+        });
+    }
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
@@ -129,7 +140,8 @@
 
 - (void)setZoomLevelInWebView
 {
-    [self sendEvent:setZoom withData:[NSDictionary dictionaryWithObjectsAndKeys:textSizeCurrentZoomLevel, kJSValue, nil] andCallback:nil];
+    [[PubSub sharedInstance] publishMessage:@{kJSValue: textSizeCurrentZoomLevel}
+                                  toChannel:setZoom];
 }
 
 

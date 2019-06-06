@@ -28,7 +28,6 @@
  */
 
 #import "AppDelegate.h"
-#import "SimpleController.h"
 
 #import <Cobalt/Cobalt.h>
 #import <Cobalt/CobaltViewController.h>
@@ -54,14 +53,16 @@
     [UINavigationBar appearance].titleTextAttributes = titleTextAttributes;
     
     // Cobalt
-    [Cobalt setResourcePath:RESOURCE_PATH];
+    // [Cobalt setResourcePath:RESOURCE_PATH];
     
     // Root
-    CobaltViewController *viewController = [Cobalt cobaltViewControllerForController:kConfigurationControllerDefault
+    CobaltViewController *viewController = [Cobalt cobaltViewControllerForController:@"index"
                                                                              andPage:@"index.html"];
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:viewController];
     self.window.rootViewController = navController;
     [self.window makeKeyAndVisible];
+    
+    [Cobalt onAppStarted];
     
     return YES;
 }
@@ -77,13 +78,13 @@
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
     
-    [[NSNotificationCenter defaultCenter] postNotificationName: kOnAppBackgroundNotification object:nil userInfo:nil];
+    [Cobalt onAppBackground];
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
     
-    [[NSNotificationCenter defaultCenter] postNotificationName: kOnAppForegroundNotification object:nil userInfo:nil];
+    [Cobalt onAppForeground];
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application

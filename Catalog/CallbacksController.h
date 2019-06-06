@@ -27,11 +27,10 @@
  *
  */
 
-#import "SimpleController.h"
-
 #import <Cobalt/CobaltViewController.h>
+#import <Cobalt/PubSub.h>
 
-@interface CallbacksController : SimpleController <CobaltDelegate>
+@interface CallbacksController : CobaltViewController <PubSubDelegate>
 
 @property (nonatomic,retain) NSArray* dataAuto;
 - (IBAction)DoSomeMaths:(id)sender;
