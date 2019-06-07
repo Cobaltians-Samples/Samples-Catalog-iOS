@@ -28,7 +28,7 @@
  */
 
 #import <Cobalt/CobaltViewController.h>
-#import <Cobalt/PubSub.h>
+#import <Cobalt/Cobalt.h>
 
 @interface EventsController : CobaltViewController <PubSubDelegate>
 
