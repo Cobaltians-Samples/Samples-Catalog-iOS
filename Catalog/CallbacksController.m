@@ -63,28 +63,28 @@ int i = 0;
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
-    PubSub *pubsub = [PubSub sharedInstance];
-    [pubsub subscribeDelegate:self
+    [Cobalt subscribeDelegate:self
                     toChannel:doSomeMathsFromWeb];
-    [pubsub subscribeDelegate:self
+    [Cobalt subscribeDelegate:self
+                    toChannel:doSomeMathsFromWeb];
+    [Cobalt subscribeDelegate:self
                     toChannel:doSomeMathsFromNativeResponse];
-    [pubsub subscribeDelegate:self
+    [Cobalt subscribeDelegate:self
                     toChannel:autoTestsFromWeb];
-    [pubsub subscribeDelegate:self
+    [Cobalt subscribeDelegate:self
                     toChannel:autoTestsFromNativeCallback];
 }
 
 - (void)viewDidDisappear:(BOOL)animated {
     [super viewDidDisappear:animated];
     
-    PubSub *pubsub = [PubSub sharedInstance];
-    [pubsub unsubscribeDelegate:self
+    [Cobalt unsubscribeDelegate:self
                     fromChannel:doSomeMathsFromWeb];
-    [pubsub unsubscribeDelegate:self
+    [Cobalt unsubscribeDelegate:self
                     fromChannel:doSomeMathsFromNativeResponse];
-    [pubsub unsubscribeDelegate:self
+    [Cobalt unsubscribeDelegate:self
                     fromChannel:autoTestsFromWeb];
-    [pubsub unsubscribeDelegate:self
+    [Cobalt unsubscribeDelegate:self
                     fromChannel:autoTestsFromNativeCallback];
 }
 
@@ -126,8 +126,8 @@ int i = 0;
                 if ([value1 isKindOfClass:[NSNumber class]]
                     && [value2 isKindOfClass:[NSNumber class]]) {
                     NSNumber *result = [NSNumber numberWithDouble:value1.doubleValue + value2.doubleValue];
-                    [[PubSub sharedInstance] publishMessage:@{kJSResult: result}
-                                                  toChannel:callback];
+                    [Cobalt publishMessage:@{kJSResult: result}
+                                 toChannel:callback];
                 }
             }
         }
@@ -179,8 +179,8 @@ int i = 0;
             NSString *callback = message[kJSCallback];
             if (callback != nil
                 && [callback isKindOfClass:[NSString class]]) {
-                [[PubSub sharedInstance] publishMessage:message
-                                              toChannel:callback];
+                [Cobalt publishMessage:message
+                            toChannel:callback];
             }
         }
     }
@@ -193,9 +193,9 @@ int i = 0;
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
 - (IBAction)DoSomeMaths:(id)sender {
-    [[PubSub sharedInstance] publishMessage:@{kJSValues: @[@1, @3],
-                                              kJSCallback:doSomeMathsFromNativeResponse}
-                                  toChannel:doSomeMathsFromNative];
+    [Cobalt publishMessage:@{   kJSValues: @[@1, @3],
+                                kJSCallback:doSomeMathsFromNativeResponse }
+                 toChannel:doSomeMathsFromNative];
 }
     
 - (IBAction)AutoTest:(id)sender {
@@ -203,9 +203,9 @@ int i = 0;
     NSString *data = [dataAuto objectAtIndex:i];
     NSLog(@"iOS Native : %@", data);
     if (data != nil) {
-        [[PubSub sharedInstance] publishMessage:@{kJSData: data,
-                                                  kJSCallback:autoTestsFromNativeCallback}
-                                      toChannel:autoTestsFromNative];
+        [Cobalt publishMessage:@{ kJSData: data,
+                                  kJSCallback:autoTestsFromNativeCallback }
+                     toChannel:autoTestsFromNative];
     }
 }
 

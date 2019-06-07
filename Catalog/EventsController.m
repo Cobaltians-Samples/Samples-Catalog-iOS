@@ -68,16 +68,16 @@
 {
     [super viewWillAppear:animated];
     
-    [[PubSub sharedInstance] subscribeDelegate:self
-                                     toChannel:hello];
+    [Cobalt subscribeDelegate:self
+                    toChannel:hello];
 }
 
 - (void)viewDidDisappear:(BOOL)animated
 {
     [super viewDidDisappear:animated];
     
-    [[PubSub sharedInstance] unsubscribeDelegate:self
-                                     fromChannel:hello];
+    [Cobalt unsubscribeDelegate:self
+                    fromChannel:hello];
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
@@ -140,8 +140,8 @@
 
 - (void)setZoomLevelInWebView
 {
-    [[PubSub sharedInstance] publishMessage:@{kJSValue: textSizeCurrentZoomLevel}
-                                  toChannel:setZoom];
+    [Cobalt publishMessage:@{kJSValue: textSizeCurrentZoomLevel}
+                 toChannel:setZoom];
 }
 
 
